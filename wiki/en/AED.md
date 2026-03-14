@@ -9,8 +9,8 @@ page_category:
 - circulation
 - multi_use_item
 
-export_use: "Treating cardiac arrest, monitoring vitals"
-export_condition: "May only be connected to one patient at a time<br>AED Pressure cuff placement must not conflict with inserted IV"
+export_use: "Tratar parada cardíaca, monitorizar constantes vitales"
+export_condition: "Solo puede conectarse a un paciente a la vez<br>La colocación del manguito de presión del AED no debe entrar en conflicto con una vía IV insertada"
 
 infobox_image: "/wiki/image/aed.png"
 
@@ -18,7 +18,7 @@ infobox_use_category: "advanced"
 infobox_use_category2: "examine"
 infobox_use_selection: "upper"
 
-infobox_item_type: "Defibrillator And Monitor"
+infobox_item_type: "Desfibrilador y monitor"
 infobox_item_usecount: 0
 
 infobox_item_nonmedication: true
