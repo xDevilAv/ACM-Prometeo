@@ -1,5 +1,4 @@
 ---
-layout: wiki
 title: MARCH
 permalink: /en/march/
 ---
