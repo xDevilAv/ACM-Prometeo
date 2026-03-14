@@ -63,29 +63,104 @@ z-index:999999;
 display:flex;
 justify-content:center;
 align-items:center;
-transition:opacity 0.8s;
+overflow:hidden;
 }
+
+/* líneas HUD */
+
+#intro-screen::before{
+content:"";
+position:absolute;
+width:100%;
+height:100%;
+background: repeating-linear-gradient(
+0deg,
+rgba(255,0,0,0.05),
+rgba(255,0,0,0.05) 2px,
+transparent 2px,
+transparent 4px
+);
+pointer-events:none;
+}
+
+/* contenido */
 
 .intro-content{
 text-align:center;
 color:#ff0033;
 }
 
+/* logo animación */
+
 .intro-logo{
 width:220px;
 margin-bottom:30px;
+
+opacity:0;
+transform:scale(0.7);
+
+animation:logoAppear 1.2s ease forwards;
 }
 
+/* glow militar */
+
+.intro-logo{
+filter: drop-shadow(0 0 8px #ff0000);
+}
+
+/* texto */
+
+.intro-title{
+opacity:0;
+animation:fadeText 1s ease forwards;
+animation-delay:0.8s;
+}
+
+.intro-text{
+opacity:0;
+animation:fadeText 1s ease forwards;
+animation-delay:1.2s;
+}
+
+/* botón */
+
 #enter-button{
-margin-top:20px;
-padding:10px 30px;
-font-size:16px;
+margin-top:25px;
+padding:12px 30px;
 background:#ff0033;
 color:white;
 border:none;
+font-size:16px;
 cursor:pointer;
+opacity:0;
+animation:fadeText 1s ease forwards;
+animation-delay:1.6s;
 }
 
 #enter-button:hover{
 background:#cc0028;
+}
+
+/* animaciones */
+
+@keyframes logoAppear{
+0%{
+opacity:0;
+transform:scale(0.5);
+}
+
+100%{
+opacity:1;
+transform:scale(1);
+}
+}
+
+@keyframes fadeText{
+from{
+opacity:0;
+}
+
+to{
+opacity:1;
+}
 }
