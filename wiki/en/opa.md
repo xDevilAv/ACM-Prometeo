@@ -9,15 +9,15 @@ page_category:
 - airway_adjunct
 - airway_management
 
-export_use: "Managing minor to moderate airway collapse"
-export_condition: "Airway must not have another oral adjunct inserted<br>Airway must be clear of obstructions"
+export_use: "Manejo del colapso leve a moderado de la vía aérea"
+export_condition: "La vía aérea no debe tener otro dispositivo oral insertado<br>La vía aérea debe estar libre de obstrucciones"
 
 infobox_image: "/wiki/image/opa.png"
 
 infobox_use_category: "airway"
 infobox_use_selection: "head"
 
-infobox_item_type: "Airway Adjunct"
+infobox_item_type: "Dispositivo de vía aérea"
 
 infobox_item_nonmedication: true
 
@@ -28,33 +28,34 @@ infobox_item_classname: "ACM_OPA"
 
 {% include git-wiki/components/infobox/item_infobox.html %}
 
-The Oropharyngeal Airway (OPA) is an {% include hl.html t="Airway Adjunct" %} used to keep the upper airway open in unconscious patients.
+La **cánula orofaríngea (OPA)** es un {% include hl.html t="Airway Adjunct" %} utilizado para mantener abierta la vía aérea superior en pacientes inconscientes.
 
-# Function
-The OPA is used to manage loss of airway reflexes and {% include hl.html t="Airway Collapse" %} by physically opening the airway and allowing air to pass through the tube into the airway.
+# Función
+El OPA se utiliza para manejar la pérdida de reflejos protectores de la vía aérea y el {% include hl.html t="Airway Collapse" %} abriendo físicamente la vía aérea y permitiendo que el aire pase a través del tubo hacia la vía respiratoria.
 
-When inserted it will block access to other oral-inserted airway adjuncts and prevent establishing of the {% include hl.html t="Recovery Position" %}.
+Una vez insertado, bloqueará el acceso a otros dispositivos de vía aérea insertados por vía oral e impedirá establecer la {% include hl.html t="Recovery Position" %}.
 
-The OPA has a limited ability to mitigate airway collapse and will need to be replaced with an advanced airway if the patient is unconscious for a prolonged time.
+El OPA tiene una capacidad limitada para mitigar el colapso de la vía aérea y deberá reemplazarse por una vía aérea avanzada si el paciente permanece inconsciente durante un periodo prolongado.
 
-The OPA does not prevent {% include hl.html t="Airway Obstructions" l="Airway_Obstruction" %}, obstructions need to be cleared if they occur.
+El OPA **no evita** las {% include hl.html t="Airway Obstructions" l="Airway_Obstruction" %}; si ocurren, deben despejarse.
 
-# Usage
+# Uso
 {% include git-wiki/components/template/action_note.html name="Insert OPA" bodypart="Head" category="airway" %}
 
-The OPA can be removed at any point, and will be automatically removed upon the patient waking up.
+El OPA puede retirarse en cualquier momento y se retirará automáticamente cuando el paciente despierte.
 <br><br>
-- **{% include hl.html t="Head Tilt-Chin Lift" %} -** If the patient has severe airway collapse a head tilt-chin lift can be performed with an OPA inserted to mitigate the collapse and keep the airway open.
-- **Recovery Position -** If the patient is placed into the recovery position inserting a OPA will cancel the recovery position.
-- **{% include hl.html t="CPR" %} and {% include hl.html t="BVM" i="/wiki/image/bvm.png" %} -** An inserted OPA does not allow simultaneous CPR and BVM use.
 
-## Indications
-- Unconscious patient with no inserted airway adjunct
+- **{% include hl.html t="Head Tilt-Chin Lift" %} -** Si el paciente presenta un colapso grave de la vía aérea, puede realizarse una maniobra de elevación del mentón con extensión de la cabeza con un OPA insertado para mitigar el colapso y mantener la vía aérea abierta.
+- **Recovery Position -** Si el paciente se coloca en posición lateral de seguridad, insertar un OPA cancelará dicha posición.
+- **{% include hl.html t="CPR" %} y {% include hl.html t="BVM" i="/wiki/image/bvm.png" %} -** Un OPA insertado **no permite** realizar simultáneamente RCP y ventilación con BVM.
 
-## Contraindications
-- An advanced airway is already in place
-- Airway obstruction
-- Severe airway collapse
+## Indicaciones
+- Paciente inconsciente sin otro dispositivo de vía aérea insertado
 
-# External Links
+## Contraindicaciones
+- Ya existe una vía aérea avanzada colocada
+- Obstrucción de la vía aérea
+- Colapso grave de la vía aérea
+
+# Enlaces externos
 - [Oropharyngeal Airway (Wikipedia)](https://en.wikipedia.org/wiki/Oropharyngeal_airway)
