@@ -10,14 +10,14 @@ page_category:
 - chest_injury_management
 - multi_use_item
 
-export_use: "Auscultating the lungs"
+export_use: "Auscultación de los pulmones"
 
 infobox_image: "/wiki/image/stethoscope.png"
 
 infobox_use_category: "airway"
 infobox_use_selection: "torso"
 
-infobox_item_type: "Auscultating Device"
+infobox_item_type: "Dispositivo de auscultación"
 infobox_item_usecount: 0
 
 infobox_item_nonmedication: true
