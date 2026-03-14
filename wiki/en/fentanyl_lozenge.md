@@ -10,19 +10,19 @@ page_category:
 - medication
 - packaged_medication
 
-export_use: "Managing severe pain"
+export_use: "Control del dolor intenso"
 
 infobox_image: "/wiki/image/lozenge_fentanyl.png"
 
 infobox_use_category: "medication"
 infobox_use_selection: "head"
 
-infobox_item_type: "Analgesic Opioid Medication"
+infobox_item_type: "Medicamento opioide analgésico"
 infobox_item_weight: "0.01kg | 0.02lb"
 
 infobox_item_classname: "ACM_Lozenge_Fentanyl"
 
-infobox_med_dose: "1 lozenge"
+infobox_med_dose: "1 pastilla"
 
 infobox_med_route: "BUC"
 infobox_med_onset: "<2m"
@@ -33,48 +33,49 @@ infobox_med_effect_hr: -1
 infobox_med_effect_bp: -1
 infobox_med_effect_rr: -2
 
-infobox_med_pain: "VERY STRONG"
+infobox_med_pain: "MUY FUERTE"
 ---
 
 {% include git-wiki/components/infobox/item_infobox.html %}
 
-The Fentanyl Lozenge, or Oral Transmucosal Fentanyl Citrate (OTFC), is formulation of {% include hl.html t="Fentanyl" i="/wiki/image/vial_fentanyl.png" %} that is administered transmucosally.
+La **pastilla de fentanilo**, o **Citrato de Fentanilo Transmucoso Oral (OTFC)**, es una formulación de {% include hl.html t="Fentanyl" i="/wiki/image/vial_fentanyl.png" %} que se administra por vía transmucosa.
 
-# Function
-The fentanyl lozenge is used to combat severe pain caused by injuries or other medical procedures without requiring IV access or to perform an injection.
+# Función
+La pastilla de fentanilo se utiliza para combatir el dolor intenso causado por lesiones u otros procedimientos médicos sin necesidad de acceso IV ni de realizar una inyección.
 
-The fentanyl lozenge is very effective at managing severe pain, with the most notable side effect being a lower respiration rate.
+La pastilla de fentanilo es muy eficaz para controlar el dolor intenso, siendo el efecto secundario más notable la disminución de la frecuencia respiratoria.
 
-The fentanyl lozenge is administered transmucosally, this requires the medication to be absorbed over time giving it a delayed onset time, with a moderate peak and duration.
+La pastilla de fentanilo se administra por vía transmucosa, lo que requiere que el medicamento se absorba con el tiempo. Esto provoca un inicio de acción más lento, con un pico y una duración moderados.
 
-# Usage
+# Uso
 {% include git-wiki/components/template/action_note.html name="Give Fentanyl Lozenge" bodypart="Head" category="medication" %}
 
-To be administered the patient must be awake and be lying down or sitting down, if the patient gets up while the fentanyl lozenge is still active it will be removed.
+Para administrarlo, el paciente debe estar **consciente** y **tumbado o sentado**.  
+Si el paciente se levanta mientras la pastilla de fentanilo sigue activa, esta será retirada.
 
-After all the medication from the lozenge has been administered the lozenge will also be automatically removed.
+Después de que todo el medicamento de la pastilla haya sido administrado, la pastilla también se retirará automáticamente.
 
-The lozenge can be removed manually at any point, this will stop the medication administration.
+La pastilla puede retirarse manualmente en cualquier momento, lo que detendrá la administración del medicamento.
 
-## Recommended Dose
-One lozenge
+## Dosis recomendada
+Una pastilla
 
-## Effects
+## Efectos
 {% include git-wiki/components/template/section_med_effects.html %}
 
-#### Potential Complications
-- Bradycardia
-- Hypoventilation
-- Respiratory Arrest
-- Cardiac Arrest
+#### Posibles complicaciones
+- Bradicardia
+- Hipoventilación
+- Parada respiratoria
+- Paro cardíaco
 
-## Indications
-- Severe Pain
+## Indicaciones
+- Dolor intenso
 
-## Contraindications
-- Chest Injury
-- Impaired Breathing Ability
+## Contraindicaciones
+- Lesión torácica
+- Capacidad respiratoria comprometida
 
-# External Links
+# Enlaces externos
 - [Fentanyl (Wikipedia)](https://en.wikipedia.org/wiki/Fentanyl)
 - [Pain Medication (Analgesia) - OTFC (TCCC.org.ua)](https://tccc.org.ua/en/guide/module-15-pain-medication-analgesia-cmc)
