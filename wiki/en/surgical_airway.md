@@ -11,79 +11,83 @@ page_category:
 - airway_management
 ---
 
-Surgical Airway (Cricothyrotomy, or just cric) is an emergency procedure used to secure an otherwise unusable airway.
+La **vía aérea quirúrgica** (cricotiroidotomía, o simplemente *cric*) es un procedimiento de emergencia utilizado para asegurar una vía aérea que de otro modo sería inutilizable.
 
-The surgical airway is performed by making an incision on the cricothyroid membrane and inserting a tracheostomy tube, bypassing the upper airway.
+La vía aérea quirúrgica se realiza haciendo una incisión en la **membrana cricotiroidea** e insertando un tubo de traqueostomía, evitando la vía aérea superior.
 
-It's used in the cases of serious face/head or airway trauma where inserting an airway adjunct through other means isn't possible, it also bypasses the glottis which may be closed or blocked from certain conditions.
+Se utiliza en casos de traumatismos graves de cara/cabeza o de la vía aérea donde no es posible insertar un dispositivo de vía aérea por otros medios. También evita la **glotis**, que puede estar cerrada o bloqueada debido a ciertas condiciones.
 
-# Use
-A surgical airway can be established if the medic has a {% include hl.html t="CricKit" i="/wiki/image/kit_cric.png" %} available, the patient will be laid flat and any manual airway manuevers will be cancelled.
+# Uso
+Una vía aérea quirúrgica puede establecerse si el médico dispone de un {% include hl.html t="CricKit" i="/wiki/image/kit_cric.png" %}. El paciente será colocado en posición supina y cualquier maniobra manual de vía aérea será cancelada.
 
-The surgical airway may be cancelled if no incisions are made, after the first incision the CricKit will be consumed even if the action is cancelled.
+La vía aérea quirúrgica puede cancelarse si no se realizan incisiones; después de la primera incisión, el **CricKit** se consumirá incluso si la acción se cancela.
 
-Open incisions will cause the patient to continually bleed until they are stitched after completion, if the action fails or is cancelled with open incisions they will need to be bandaged and stitched instead.
+Las incisiones abiertas harán que el paciente sangre continuamente hasta que se suturen tras completar el procedimiento. Si la acción falla o se cancela con incisiones abiertas, deberán vendarse y suturarse.
 
-Once established the surgical airway will not be able to be removed, and the patient will stay unconscious.
+Una vez establecida, la vía aérea quirúrgica **no puede retirarse**, y el paciente permanecerá inconsciente.
 
-## Indications
-Severe airway inflammation and unmanaged airway spasm block the airway, prevent insertion of another advanced airway or make mechanical ventilation ineffective.
+## Indicaciones
+La inflamación grave de la vía aérea y el espasmo de la vía aérea no controlado pueden bloquear la vía aérea, impedir la inserción de otro dispositivo avanzado o hacer ineficaz la ventilación mecánica.
 
-A patient with these conditions will not be able to breathe, the surgical airway is the only way to prevent death.
+Un paciente con estas condiciones no podrá respirar; la vía aérea quirúrgica es la única forma de evitar la muerte.
 
-# Procedure
-{% include img.html i="/wiki/image/surgical_airway/larynx_reference.png" s="25" t="Palpation color reference" %}
+# Procedimiento
+{% include img.html i="/wiki/image/surgical_airway/larynx_reference.png" s="25" t="Referencia de color para palpación" %}
 
-## Equipment
-- <img src="{{ '/wiki/image/surgical_airway/scalpel.png' | relative_url }}" height="60"> Scalpel
-  - Used to make vertical and horizontal incisions
-  - Discarded after incisions are complete
-- <img src="{{ '/wiki/image/surgical_airway/hook.png' | relative_url }}" height="60"> Tracheal Hook
-  - Used to hold incision open while inserting cric-key
-  - Discarded after cric-key is inserted
-- <img src="{{ '/wiki/image/surgical_airway/tube.png' | relative_url }}" height="60"> Cric-Key
-  - Used as the breathing tube
-  - Has a stylet that needs to be removed after insertion
-- <img src="{{ '/wiki/image/surgical_airway/syringe.png' | relative_url }}" height="60"> Syringe
-  - Used to inflate cric-key pressure cuff to seal the airway
-  - Discarded after cuff is inflated
-- <img src="{{ '/wiki/image/surgical_airway/strap.png' | relative_url }}" height="60"> Neck Strap
-  - Used to secure cric-key to the neck of the patient
+## Equipamiento
+- <img src="{{ '/wiki/image/surgical_airway/scalpel.png' | relative_url }}" height="60"> **Bisturí**
+  - Utilizado para realizar incisiones verticales y horizontales
+  - Se descarta una vez completadas las incisiones
 
-## Procedure Steps
-Surgical airway is performed by palpating for the <span style="color:#60DCFF;">cricothyroid membrane</span>, making a vertical and horizontal incision, then inserting and securing the cric-key, after completion the incision will also need to be stitched to prevent bleeding.
+- <img src="{{ '/wiki/image/surgical_airway/hook.png' | relative_url }}" height="60"> **Gancho traqueal**
+  - Utilizado para mantener la incisión abierta mientras se inserta el cric-key
+  - Se descarta después de insertar el cric-key
 
-**Palpating** is performed by **right-clicking** with no equipment selected.
+- <img src="{{ '/wiki/image/surgical_airway/tube.png' | relative_url }}" height="60"> **Cric-Key**
+  - Se utiliza como tubo respiratorio
+  - Tiene un estilete que debe retirarse tras la inserción
 
-The **scalpel** can be rotated by **right-clicking**.
+- <img src="{{ '/wiki/image/surgical_airway/syringe.png' | relative_url }}" height="60"> **Jeringa**
+  - Utilizada para inflar el manguito del cric-key y sellar la vía aérea
+  - Se descarta después de inflar el manguito
 
-#### Vertical Incision
-{% include video.html v="/wiki/image/surgical_airway/surgical_airway.webm" type="video/webm" gif="true" s="30" t="Performing Surgical Airway" %}
+- <img src="{{ '/wiki/image/surgical_airway/strap.png' | relative_url }}" height="60"> **Correa cervical**
+  - Utilizada para fijar el cric-key al cuello del paciente
 
-1. Locate <span style="color:#FFCA1C;">thyroid cartilage ridge</span>, and locate the <span style="color:#FF1E7C;">cricothyroid membrane area</span>
-2. Select the **scalpel**
-3. Cut vertically over the <span style="color:#FF1E7C;">cricothyroid membrane area</span> aligned with the <span style="color:#FFCA1C;">thyroid cartilage ridge</span> to keep the incision centered
-4. Return the **scalpel**
+## Pasos del procedimiento
+La vía aérea quirúrgica se realiza **palpando la <span style="color:#60DCFF;">membrana cricotiroidea</span>**, realizando una incisión vertical y otra horizontal, e insertando y asegurando el cric-key. Tras completar el procedimiento, la incisión también deberá suturarse para evitar el sangrado.
 
-#### Horizontal Incision
-1. **Palpate** over the incision over the <span style="color:#FF1E7C;">cricothyroid membrane area</span> to confirm the <span style="color:#60DCFF;">cricothyroid membrane</span> location and expand the incision
-2. Select the **scalpel**, and prepare for a **horizontal** incision
-3. Cut horizontally along the <span style="color:#60DCFF;">cricothyroid membrane</span>
-4. Discard the **scalpel**
+La **palpación** se realiza haciendo **clic derecho** sin ningún equipo seleccionado.
 
-#### Cric-Key Insertion
-1. Select the **tracheal hook** and lift the incision
-2. Select the **cric-key** and insert it into the lifted incision
-3. Remove and discard the **tracheal hook**
-4. Select the **syringe**
-5. Inflate the cuff fully
-6. Return the **syringe**
-7. Remove the stylet from the **cric-key**
-  - The surgical airway has been established
-8. Select the **neck strap**
-9. Connect the **neck strap** to both sides of the **cric-key**
-  - The surgical airway has been secured
+El **bisturí** puede girarse con **clic derecho**.
 
-#### After Establishing Surgical Airway
-- The open incision will continually bleed and will need to be stitched
-- If the neck strap has not been secured during the procedure it needs to be secured after, if not strapped the cric-key may move and limit or prevent breathing
+#### Incisión vertical
+{% include video.html v="/wiki/image/surgical_airway/surgical_airway.webm" type="video/webm" gif="true" s="30" t="Realización de vía aérea quirúrgica" %}
+
+1. Localiza la <span style="color:#FFCA1C;">prominencia del cartílago tiroides</span> y el área de la <span style="color:#FF1E7C;">membrana cricotiroidea</span>
+2. Selecciona el **bisturí**
+3. Realiza una incisión vertical sobre el <span style="color:#FF1E7C;">área de la membrana cricotiroidea</span> alineada con la <span style="color:#FFCA1C;">prominencia del cartílago tiroides</span> para mantener la incisión centrada
+4. Guarda el **bisturí**
+
+#### Incisión horizontal
+1. **Palpa** sobre la incisión en el <span style="color:#FF1E7C;">área de la membrana cricotiroidea</span> para confirmar la ubicación de la <span style="color:#60DCFF;">membrana cricotiroidea</span> y ampliar la incisión
+2. Selecciona el **bisturí** y prepárate para una incisión **horizontal**
+3. Realiza la incisión horizontal a lo largo de la <span style="color:#60DCFF;">membrana cricotiroidea</span>
+4. Desecha el **bisturí**
+
+#### Inserción del Cric-Key
+1. Selecciona el **gancho traqueal** y levanta la incisión
+2. Selecciona el **cric-key** e insértalo en la incisión abierta
+3. Retira y desecha el **gancho traqueal**
+4. Selecciona la **jeringa**
+5. Infla completamente el manguito
+6. Guarda la **jeringa**
+7. Retira el estilete del **cric-key**
+  - La vía aérea quirúrgica ha sido establecida
+8. Selecciona la **correa cervical**
+9. Conecta la **correa cervical** a ambos lados del **cric-key**
+  - La vía aérea quirúrgica ha sido asegurada
+
+#### Después de establecer la vía aérea quirúrgica
+- La incisión abierta seguirá sangrando y deberá suturarse
+- Si la correa cervical no se ha asegurado durante el procedimiento, deberá asegurarse después. Si no se fija correctamente, el cric-key puede moverse y limitar o impedir la respiración
