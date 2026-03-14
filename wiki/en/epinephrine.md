@@ -8,14 +8,14 @@ page_category:
 - medication
 - liquid_medication
 
-export_use: "Cardiac Arrest"
+export_use: "Paro cardíaco"
 
 infobox_image: "/wiki/image/vial_epinephrine.png"
 
 infobox_use_category: "medication"
 infobox_use_selection: "body"
 
-infobox_item_type: "Vasopressor Medication"
+infobox_item_type: "Medicamento vasopresor"
 infobox_item_weight: "0.01kg | 0.02lb"
 
 infobox_item_classname: "ACM_Vial_Epinephrine"
@@ -41,41 +41,41 @@ infobox_med_effect_rr: 2
 
 {% include git-wiki/components/infobox/item_infobox.html %}
 
-Epinephrine, or Adrenaline is a medication used to treat cardiac arrest.
+La epinefrina, o adrenalina, es un medicamento utilizado para tratar el paro cardíaco.
 
-# Function
-Epinephrine is used to improve Return of Spontaneous Circulation in cardiac arrest.
+# Función
+La epinefrina se utiliza para mejorar el retorno de la circulación espontánea (ROSC) durante un paro cardíaco.
 
-In sinus rhythms it will cause a heart rate and respiration rate increase.
+En ritmos sinusales provoca un aumento de la frecuencia cardíaca y de la frecuencia respiratoria.
 
-Epinephrine is primarily administered intravenously, with a fast onset, short peak and duration.
+La epinefrina se administra principalmente por vía intravenosa, con un inicio rápido, un pico corto y una duración breve.
 
-Intramuscularly administered epinephrine will have weaker effects and does not have any benefits for ROSC.
+La epinefrina administrada por vía intramuscular tiene efectos más débiles y no aporta beneficios para el retorno de la circulación espontánea.
 
-# Usage
+# Uso
 {% include git-wiki/components/template/action_note.html name="Use Syringe" bodypart="Torso and Limbs" category="medication" %}
 {% include git-wiki/components/template/action_note.html name="Push Epinephrine" bodypart="Torso and Limbs" category="medication" %}
 
-Medications require a {% include hl.html t="Syringe" i="/wiki/image/syringe_5.png" %} to be able to be drawn and administered.
+Los medicamentos requieren una {% include hl.html t="Syringe" i="/wiki/image/syringe_5.png" %} para poder extraerse y administrarse.
 
-IV access is achieved with IV Catheters or IO devices.
+El acceso IV se logra mediante catéteres IV o dispositivos IO.
 
-## Dosing
-Push 1mg IV every 5 minutes during cardiac arrest
+## Dosificación
+Administrar 1mg IV cada 5 minutos durante el paro cardíaco.
 
-## Effects
+## Efectos
 {% include git-wiki/components/template/section_med_effects.html %}
 
-#### Potential Complications
-- Tachycardia
-- Hypertension
-- Cardiac Arrest
+#### Posibles complicaciones
+- Taquicardia
+- Hipertensión
+- Paro cardíaco
 
-## Indications
-- Cardiac Arrest (PVT/VF/Asystole)
+## Indicaciones
+- Paro cardíaco (PVT/VF/Asistolia)
 
-## Contraindications
+## Contraindicaciones
 - N/A
 
-# External Links
+# Enlaces externos
 - [Epinephrine (Wikipedia)](https://en.wikipedia.org/wiki/Epinephrine_(medication))
