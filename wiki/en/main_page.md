@@ -7,4 +7,4 @@ redirect_from:
 published: true
 ---
 
-This is the main page, main page stuff should go here
+Esta es la página principal, aquí debería ir el contenido principal.
