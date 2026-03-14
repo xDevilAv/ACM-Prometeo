@@ -9,7 +9,7 @@ published: true
 
 <div id="intro-screen">
 <div class="intro-content">
-<img src="/spanishac/wiki/image/logo.png" class="intro-logo">
+<img src="{{ '/wiki/image/logo.png' | relative_url }}" class="intro-logo">
 <h1>ACM Devil Medical</h1>
 <p>Bienvenido al manual médico</p>
 </div>
@@ -25,5 +25,3 @@ window.addEventListener("load", function() {
     }, 2000);
 });
 </script>
-
-Esta es la página principal, aquí debería ir el contenido principal.
