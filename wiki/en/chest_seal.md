@@ -1,6 +1,6 @@
 ---
 title: Chest Seal
-permalink: /en/Chest_Seal
+permalink: /en/Chest Seal
 redirect_from:
 - /en/Chest_Seal
 published: true
