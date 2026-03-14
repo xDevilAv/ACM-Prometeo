@@ -9,8 +9,8 @@ page_category:
 - circulation
 - multi_use_item
 
-export_use: "Pushing and injecting liquid medication"
-export_condition: "Must have filled medication<br>Must have IV/IO access to push medication intravenously"
+export_use: "Administrar e inyectar medicación líquida"
+export_condition: "Debe contener medicación cargada<br>Debe tener acceso IV/IO para administrar medicación por vía intravenosa"
 
 infobox_image: "/wiki/image/syringe_5.png"
 infobox_images:
@@ -29,7 +29,7 @@ infobox_item_multiitem_variants:
 - "5ml"
 - "10ml"
 
-infobox_item_type: "Medication Administration Device"
+infobox_item_type: "Dispositivo de administración de medicamentos"
 infobox_item_usecount: 0
 
 infobox_item_nonmedication: true
