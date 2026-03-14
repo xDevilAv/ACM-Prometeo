@@ -11,15 +11,15 @@ page_category:
 - packaged_medication
 - autoinjector
 
-export_use: "Treating nerve agent exposure"
-export_doserange: "3 injections initially, more if required"
+export_use: "Tratamiento de exposición a agentes nerviosos"
+export_doserange: "3 inyecciones inicialmente, más si es necesario"
 
 infobox_image: "/wiki/image/autoinjector_atna.png"
 
 infobox_use_category: "medication"
 infobox_use_selection: "body"
 
-infobox_item_type: "Autoinjector"
+infobox_item_type: "Autoinyector"
 infobox_item_weight: "0.05kg | 0.10lb"
 
 infobox_item_classname: "ACM_Autoinjector_ATNA"
@@ -39,35 +39,35 @@ infobox_med_effect_bp: 1
 
 {% include git-wiki/components/infobox/item_infobox.html %}
 
-The ATNA (Antidote Treatment, Nerve Agent) Autoinjector is a device used to easily self administer an antidote for nerve agent exposure.
+El autoinyector ATNA (Antidote Treatment, Nerve Agent) es un dispositivo utilizado para autoadministrar fácilmente un antídoto en caso de exposición a agentes nerviosos.
 
-# Function
-The ATNA autoinjector is used to quickly administer an antidote for nerve agent exposure, without requiring dosing of liquid medication.
+# Función
+El autoinyector ATNA se utiliza para administrar rápidamente un antídoto frente a la exposición a agentes nerviosos sin necesidad de preparar dosis de medicación líquida.
 
-Depending on severity multiple injections of ATNAA may be required to fully manage and treat nerve agent exposure.
+Dependiendo de la gravedad, pueden ser necesarias múltiples inyecciones de ATNAA para tratar completamente la exposición a agentes nerviosos.
 
-ATNAA is administered intramuscularly with a quick onset, moderate peak and long duration.
+ATNAA se administra por vía intramuscular con un inicio rápido, un pico moderado y una duración prolongada.
 
-# Usage
+# Uso
 {% include git-wiki/components/template/action_note.html name="Use ATNA Autoinjector" bodypart="Limbs" category="medication" %}
 
-## Recommended Dose
-3+ injections, based on exposure severity
+## Dosis recomendada
+3 o más inyecciones, según la gravedad de la exposición.
 
-## Effects
+## Efectos
 {% include git-wiki/components/template/section_med_effects.html %}
 
-#### Potential Complications
-- Tachycardia
-- Cardiac Arrest
+#### Posibles complicaciones
+- Taquicardia
+- Paro cardíaco
 
-## Indications
-- Nerve Agent Exposure
+## Indicaciones
+- Exposición a agentes nerviosos
 
-## Contraindications
-- Tachycardia (NOT from nerve agent exposure)
+## Contraindicaciones
+- Taquicardia (NO causada por exposición a agentes nerviosos)
 
-# External Links
+# Enlaces externos
 - [ATNAA (Wikipedia)](https://en.wikipedia.org/wiki/ATNAA)
-- [CBRN Injury Response (Part 2) - Atropine (TCCC.org.ua)](https://tccc.org.ua/en/guide/cbrn-injury-part-2-cpg#n19)
-- [DuoDote® Auto-Injector Administration Instructions (YouTube)](https://www.youtube.com/watch?v=hWvhzTgYXRU)
+- [Respuesta a lesiones CBRN (Parte 2) - Atropina (TCCC.org.ua)](https://tccc.org.ua/en/guide/cbrn-injury-part-2-cpg#n19)
+- [Instrucciones de administración del auto-inyector DuoDote® (YouTube)](https://www.youtube.com/watch?v=hWvhzTgYXRU)
