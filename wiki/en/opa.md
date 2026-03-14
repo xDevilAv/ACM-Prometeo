@@ -1,5 +1,5 @@
 ---
-title: OPA
+title: OPA (Guedel)
 permalink: /en/OPA
 published: true
 
