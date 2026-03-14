@@ -11,15 +11,15 @@ page_category:
 - breathing
 - chest_injury_management
 
-export_use: "Treating chest injuries"
-export_condition: "Must have wounds that may cause a chest injury"
+export_use: "Tratamiento de lesiones torácicas"
+export_condition: "Debe haber heridas que puedan causar una lesión torácica"
 
 infobox_image: "/wiki/image/chestseal.png"
 
 infobox_use_category: "airway"
 infobox_use_selection: "torso"
 
-infobox_item_type: "Vented Occlusive Dressing"
+infobox_item_type: "Vendaje oclusivo con válvula"
 
 infobox_item_nonmedication: true
 
