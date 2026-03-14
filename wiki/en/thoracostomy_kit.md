@@ -11,15 +11,15 @@ page_category:
 - breathing
 - chest_injury_management
 
-export_use: "Performing thoracostomy"
-export_condition: "Must have wounds that may cause a chest injury"
+export_use: "Realización de toracostomía"
+export_condition: "Debe tener heridas que puedan causar una lesión torácica"
 
 infobox_image: "/wiki/image/kit_thoracostomy.png"
 
 infobox_use_category: "airway"
 infobox_use_selection: "torso"
 
-infobox_item_type: "Chest Injury Treatment Kit"
+infobox_item_type: "Kit de tratamiento de lesiones torácicas"
 
 infobox_item_nonmedication: true
 
