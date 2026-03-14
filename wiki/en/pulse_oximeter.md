@@ -11,14 +11,14 @@ page_category:
 - breathing
 - multi_use_item
 
-export_use: "Measuring vitals"
+export_use: "Medición de constantes vitales"
 
 infobox_image: "/wiki/image/pulseoximeter.png"
 
 infobox_use_category: "examine"
 infobox_use_selection: "arms"
 
-infobox_item_type: "Vitals Monitoring Device"
+infobox_item_type: "Dispositivo de monitorización de constantes vitales"
 infobox_item_usecount: 0
 
 infobox_item_nonmedication: true
