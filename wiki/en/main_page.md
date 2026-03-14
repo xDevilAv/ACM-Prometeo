@@ -16,3 +16,22 @@ layout: default
 
 </div>
 </div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+
+const intro = document.getElementById("intro-screen");
+const button = document.getElementById("enter-button");
+
+button.addEventListener("click", function(){
+
+intro.style.opacity = "0";
+
+setTimeout(function(){
+intro.style.display = "none";
+}, 800);
+
+});
+
+});
+</script>
