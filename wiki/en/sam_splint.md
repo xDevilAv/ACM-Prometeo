@@ -10,15 +10,15 @@ page_category:
 - device
 - disability
 
-export_use: "Stabilizing fractures"
-export_condition: "Limb must have wounds that may cause a fracture"
+export_use: "Estabilización de fracturas"
+export_condition: "La extremidad debe tener heridas que puedan causar una fractura"
 
 infobox_image: "/wiki/image/samsplint.png"
 
 infobox_use_category: "bandage"
 infobox_use_selection: "limbs"
 
-infobox_item_type: "Malleable Splint"
+infobox_item_type: "Férula moldeable"
 
 infobox_item_nonmedication: true
 
