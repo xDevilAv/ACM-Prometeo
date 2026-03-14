@@ -10,15 +10,15 @@ page_category:
 - medication
 - liquid_medication
 
-export_use: "Managing low calcium after blood transfusion"
-export_doserange: "1g after first unit, then 1g after every 4 units of blood"
+export_use: "Controlar niveles bajos de calcio tras una transfusión de sangre"
+export_doserange: "1g después de la primera unidad, luego 1g después de cada 4 unidades de sangre"
 
 infobox_image: "/wiki/image/vial_calciumchloride.png"
 
 infobox_use_category: "medication"
 infobox_use_selection: "body"
 
-infobox_item_type: "Medication"
+infobox_item_type: "Medicamento"
 infobox_item_weight: "0.01kg | 0.02lb"
 
 infobox_item_classname: "ACM_Vial_CalciumChloride"
@@ -41,39 +41,39 @@ infobox_med_effect_hr: 1
 
 {% include git-wiki/components/infobox/item_infobox.html %}
 
-Calcium Chloride is a mineral used to increase calcium levels in the body.
+El cloruro de calcio es un mineral utilizado para aumentar los niveles de calcio en el cuerpo.
 
-# Function
-Calcium chloride is used to supplement calcium lost from bleeding and during blood transfusion.
+# Función
+El cloruro de calcio se utiliza para reponer el calcio perdido debido a hemorragias y durante transfusiones de sangre.
 
-Calcium chloride is administered intravenously with a rapid onset, short peak and moderate duration.
+El cloruro de calcio se administra por vía intravenosa con un inicio rápido, un pico corto y una duración moderada.
 
-Calcium chloride should not be administered intramuscularly.
+El cloruro de calcio no debe administrarse por vía intramuscular.
 
-# Usage
+# Uso
 {% include git-wiki/components/template/action_note.html name="Use Syringe" bodypart="Torso and Limbs" category="medication" %}
 {% include git-wiki/components/template/action_note.html name="Push Calcium Chloride" bodypart="Torso and Limbs" category="medication" %}
 
-Medications require a {% include hl.html t="Syringe" i="/wiki/image/syringe_5.png" %} to be able to be drawn and administered.
+Los medicamentos requieren una {% include hl.html t="Syringe" i="/wiki/image/syringe_5.png" %} para poder extraerse y administrarse.
 
-IV access is achieved with IV Catheters or IO devices.
+El acceso IV se logra mediante catéteres IV o dispositivos IO.
 
-## Dosing
-Push 1g IV after first unit (500ml), then 1g IV after every 4 units of blood.
+## Dosificación
+Administrar 1g IV después de la primera unidad (500ml), luego 1g IV después de cada 4 unidades de sangre.
 
-## Effects
+## Efectos
 {% include git-wiki/components/template/section_med_effects.html %}
 
-#### Potential Complications
-- Tachycardia
-- Cardiac Arrest
+#### Posibles complicaciones
+- Taquicardia
+- Paro cardíaco
 
-## Indications
-- Blood Transfusion
+## Indicaciones
+- Transfusión de sangre
 
-## Contraindications
-- Ventricular Fibrillation
+## Contraindicaciones
+- Fibrilación ventricular
 
-# External Links
+# Enlaces externos
 - [Hypocalcemia (Wikipedia)](https://en.wikipedia.org/wiki/Hypocalcemia)
 - [Hemorrhagic Shock Fluid Resuscitation in TFC (TCCC.org.ua)](https://tccc.org.ua/en/guide/module-11-hemorrhagic-shock-fluid-resuscitation-in-tactical-field-care-tfc-cmc)
