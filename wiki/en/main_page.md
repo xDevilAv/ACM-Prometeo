@@ -4,6 +4,19 @@ permalink: /en/Main_Page
 layout: default
 ---
 
+## ACM
+
+Bienvenido al manual del **Advanced Combat Medicine (ACM)**.
+
+Este manual recoge los procedimientos médicos tácticos utilizados en el sistema **ACM Prometeo**, basado en los principios de **Tactical Combat Casualty Care (TCCC)**.
+
+Aquí encontrarás:
+
+- Protocolos médicos (MARCH / TCCC)
+- Uso del equipamiento médico
+- Procedimientos de tratamiento
+- Funciones médicas del sistema
+
 <div id="intro-screen">
 <div class="intro-content">
 
