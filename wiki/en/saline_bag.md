@@ -11,8 +11,8 @@ page_category:
 - circulation
 - fluid_transfusion
 
-export_use: "Replacing lost blood volume"
-export_condition: "Must have IV/IO access"
+export_use: "Reemplazo del volumen sanguíneo perdido"
+export_condition: "Debe tener acceso IV/IO"
 
 infobox_image: "/wiki/image/bag_saline.png"
 infobox_use_category: "transfusion"
@@ -24,7 +24,7 @@ infobox_item_multiitem_variants:
 - "500ml"
 - "1000ml"
 
-infobox_item_type: "Fluid Bag"
+infobox_item_type: "Bolsa de fluido"
 
 infobox_item_nonmedication: true
 
