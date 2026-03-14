@@ -1,5 +1,5 @@
 ---
-title: Vendaje Elástico
+title: Elastic Wrap
 permalink: /en/Elastic_Wrap
 redirect_from:
 - /en/Elastic Wrap
