@@ -1,5 +1,5 @@
 ---
-title: Items
+title: Equipo Médico
 permalink: /en/Items
 published: true
 ---
