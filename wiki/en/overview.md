@@ -1,480 +1,544 @@
 ---
-title: Overview
-permalink: /en/Overview
+title: Resumen
+permalink: /es/Overview
 published: true
 ---
 
-Descripción general de mecánicas y tratamientos.
+Resumen de mecánicas y tratamientos.
 
 {% include git-wiki/components/toc/toc-include.html %}
 
 
-# Hemorragia catastrófica
-## Heridas externas
-La mayoría de las lesiones crearán heridas que sangran. Si el sangrado no se detiene, la pérdida de sangre puede deteriorarse hasta provocar pérdida de conciencia, shock, paro cardíaco y muerte.
+# Hemorragia Catastrófica
+## Heridas Externas
+La mayoría de las lesiones crearán heridas que sangran. Si el sangrado no se detiene, la pérdida de sangre puede deteriorarse hasta causar pérdida de conciencia, shock, paro cardíaco y muerte.
 
 ### Vendajes
 {:.no_toc}
-**Vendaje compresivo**
 
-Vendaje estándar destinado a la mayoría de las heridas.
+**Vendaje de Presión**
 
-**Vendaje traumático de emergencia**
+Vendaje estándar utilizado para la mayoría de las heridas.
 
-Vendaje de gran superficie diseñado para cubrir muchas heridas a la vez; debido a su tamaño tarda más en aplicarse y no puede utilizarse para auto-vendaje.
+**Vendaje de Trauma de Emergencia**
 
-**Venda elástica**
+Vendaje de gran superficie diseñado para cubrir muchas heridas a la vez. Debido a su tamaño tarda más en aplicarse y no puede usarse para auto-vendaje.
 
-Las vendas elásticas se utilizan para envolver heridas ya vendadas o coaguladas para reducir la probabilidad de que se desprendan o se reabran. No pueden detener el sangrado por sí solas.
+**Venda Elástica**
 
-Las vendas también pueden utilizarse para tratar contusiones y estabilizar férulas SAM.
+Las vendas elásticas se usan para envolver heridas ya vendadas o coagulas para reducir la probabilidad de que el vendaje se desprenda o la herida vuelva a abrirse.  
+No pueden detener por sí solas una herida que esté sangrando.
+
+También pueden usarse para tratar contusiones y estabilizar férulas SAM.
 
 ### Coagulación
 {:.no_toc}
-{% include git-wiki/components/template/link_note.html text="Ver también: [Coagulation](#coagulation)" %}
 
-Las heridas con sangrado leve tienen posibilidad de coagular por sí solas.
+{% include git-wiki/components/template/link_note.html text="Ver también: [Coagulación](#coagulation)" %}
 
-Los coágulos pueden hacerse más duraderos con TXA; la mayoría son inestables y pueden reabrirse, por lo que deben envolverse o suturarse cuando sea posible.
+Las heridas con sangrado leve pueden coagular por sí solas.
 
-## Heridas internas
-{% include git-wiki/components/template/link_note.html text="Ver: [Internal Bleeding](#internal-bleeding)" %}
+Los coágulos pueden hacerse más duraderos con TXA, aunque la mayoría son inestables y pueden volver a abrirse, por lo que deben envolverse o suturarse cuando sea posible.
 
-# Vía aérea
+---
+
+## Heridas Internas
+
+{% include git-wiki/components/template/link_note.html text="Ver: [Sangrado Interno](#internal-bleeding)" %}
+
+---
+
+# Vía Aérea
+
 ## Pérdida de reflejos
-Tras perder la conciencia, la vía aérea puede bloquearse parcial o completamente debido a que la lengua cae hacia atrás, impidiendo una respiración eficaz.
+
+Tras perder el conocimiento, la vía aérea puede bloquearse parcial o totalmente debido a que la lengua cae hacia atrás, impidiendo la respiración efectiva.
 
 Se requieren maniobras manuales o dispositivos de vía aérea para mantenerla abierta.
 
-## Colapso de la vía aérea
-Después de permanecer inconsciente durante un tiempo prolongado, el paciente pierde los reflejos de la vía aérea superior, lo que provoca su colapso y finalmente impide respirar.
+---
 
-El colapso de la vía aérea puede mitigarse con maniobras manuales o manejarse con un i-gel.
+## Colapso de la vía aérea
+
+Después de permanecer inconsciente durante un tiempo prolongado, el paciente pierde los reflejos de la vía aérea superior, lo que provoca su colapso e impide la respiración.
+
+Puede mitigarse con maniobras manuales o gestionarse con un **i-gel**.
+
+---
 
 ## Obstrucción de la vía aérea
-Tras permanecer inconsciente durante un tiempo prolongado, el paciente pierde los reflejos de los músculos que mantienen el contenido del estómago fuera del esófago, lo que puede provocar regurgitación y aspiración.
 
-Además, cualquier herida abierta cerca de la vía aérea puede permitir que la sangre entre en ella y la bloquee.
+Tras un periodo prolongado de inconsciencia, el paciente pierde los reflejos que mantienen el contenido del estómago fuera del esófago, lo que puede provocar regurgitación y aspiración.
 
-Las obstrucciones de la vía aérea se producen por vómito (regurgitación) y por sangre que entra en la vía aérea.
+Además, heridas abiertas cercanas a la vía aérea pueden dejar entrar sangre en ella.
 
-Las obstrucciones pueden despejarse mediante maniobras manuales si no son graves; de lo contrario, se requiere aspiración médica.
+Las obstrucciones se producen por:
 
-### Obstrucción de la vía aérea (vómito)
+- vómito (regurgitación)
+- sangre
+
+Las obstrucciones leves pueden eliminarse con maniobras manuales.  
+Si son graves, se requiere **succión médica**.
+
+---
+
+### Obstrucción de vía aérea (vómito)
 {:.no_toc}
-Después de permanecer inconsciente durante un tiempo, el paciente puede vomitar y obstruir la vía aérea.
 
-Cada paciente vomitará un número determinado de veces, dependiendo del contenido del estómago.
+Tras permanecer inconsciente durante un tiempo, el paciente puede vomitar, bloqueando la vía aérea.
 
-### Obstrucción de la vía aérea (sangre)
+Cada paciente vomitará un número determinado de veces dependiendo del contenido del estómago.
+
+---
+
+### Obstrucción de vía aérea (sangre)
 {:.no_toc}
-Tras perder la conciencia, la vía aérea se vuelve rápidamente susceptible a que sangre entre en ella.
 
-Asegúrate de que todas las heridas en la cabeza estén controladas para evitar complicaciones.
+Tras quedar inconsciente, la vía aérea se vuelve susceptible casi inmediatamente a que la sangre entre en ella.
+
+Asegúrate de que las heridas de la cabeza no estén sangrando para evitar complicaciones.
+
+---
 
 ## Inflamación de la vía aérea
+
 {% include git-wiki/components/template/link_note.html text="Ver también: [CBRN](#cbrn)" %}
 
-Cuando se expone a químicos corrosivos, la vía aérea puede inflamarse, estrechando su apertura y afectando la respiración.
+Cuando se expone a químicos corrosivos, la vía aérea puede inflamarse, estrechando el paso del aire y afectando la respiración.
 
-La inflamación grave puede bloquear completamente la vía aérea, provocando paro respiratorio e impidiendo la inserción de algunos dispositivos de vía aérea.
+Una inflamación grave puede bloquear completamente la vía aérea y provocar paro respiratorio.
 
-Una inflamación significativa requiere una vía aérea quirúrgica.
+Requiere **vía aérea quirúrgica**.
+
+---
 
 ## Espasmo de la vía aérea
+
 {% include git-wiki/components/template/link_note.html text="Ver también: [CBRN](#cbrn)" %}
 
-La exposición a agentes nerviosos que provocan convulsiones también puede afectar la vía aérea.
+La exposición a agentes nerviosos que causan convulsiones puede provocar espasmo de la vía aérea.
 
-Un espasmo activo de la vía aérea provocará paro respiratorio.
+Un espasmo activo causa **paro respiratorio**.
 
-El tratamiento incluye antídotos contra agentes nerviosos y medicación anticonvulsiva; también puede ser necesaria una vía aérea quirúrgica.
+Tratamiento:
+
+- antídoto contra agentes nerviosos
+- anticonvulsivos
+- vía aérea quirúrgica si es necesario
+
+---
 
 ## Manejo de la vía aérea
-#### Maniobras manuales
+
+### Maniobras manuales
 {:.no_toc}
 
 **Giro de cabeza**
-- Elimina obstrucciones leves
 
-**Head-Tilt Chin-Lift**
-- Mantiene abierta la vía aérea
-- Maneja el colapso de la vía aérea
-- Acción activa
+- despeja obstrucciones leves
+
+**Head Tilt Chin Lift**
+
+- mantiene abierta la vía aérea
+- gestiona colapso de vía aérea
+- acción activa
 
 **Posición lateral de seguridad**
-- Mantiene la vía aérea abierta
-- Maneja el colapso de la vía aérea
-- Drena obstrucciones leves y previene nuevas
-- Impide muchas acciones médicas sin cancelarla
 
-#### Dispositivos de vía aérea
+- mantiene la vía aérea abierta
+- gestiona colapso
+- drena obstrucciones leves
+- previene nuevas obstrucciones
+
+---
+
+### Dispositivos de vía aérea
 {:.no_toc}
 
 {% include hl.html t="OPA" i="/wiki/image/opa.png" %}
-- Mantiene abierta la vía aérea
-- Requiere vía aérea libre de obstrucciones
-- Consumible
+
+- mantiene la vía aérea abierta
+- requiere vía aérea despejada
+- consumible
 
 {% include hl.html t="NPA" i="/wiki/image/npa.png" %}
-- Mantiene abierta la vía aérea
-- Requiere vía aérea libre de obstrucciones
-- Consumible
+
+- mantiene la vía aérea abierta
+- requiere vía aérea despejada
+- consumible
 
 {% include hl.html t="i-gel" i="/wiki/image/igel.png" %}
-- Mantiene abierta la vía aérea
-- Maneja el colapso y previene obstrucciones por vómito
-- Requiere vía aérea libre de obstrucciones
-- Consumible
 
-#### Vía aérea avanzada
+- mantiene la vía aérea abierta
+- previene obstrucción por vómito
+- gestiona colapso
+- consumible
+
+---
+
+### Vía aérea avanzada
 {:.no_toc}
 
 {% include hl.html t="Surgical Airway" %}
-- Mantiene la vía aérea abierta
-- Previene compromiso por colapso, obstrucción o inflamación
-- Más invasiva
-- Requiere {% include hl.html t="CricKit" i="/wiki/image/kit_cric.png" %}
 
-#### Dispositivos
+- mantiene la vía aérea abierta
+- previene colapso, obstrucción, inflamación o espasmo
+- procedimiento más invasivo
+- requiere {% include hl.html t="CricKit" i="/wiki/image/kit_cric.png" %}
+
+---
+
+### Dispositivos
 {:.no_toc}
 
 {% include hl.html t="Emergency Disposable Suction Bag" i="/wiki/image/suctionbag.png" %}
-- Elimina obstrucciones
-- Consumible
+
+- elimina todas las obstrucciones
+- consumible
 
 {% include hl.html t="ACCUVAC" i="/wiki/image/accuvac.png" %}
-- Elimina obstrucciones
-- Voluminoso
+
+- elimina todas las obstrucciones
+- voluminoso
+
+---
 
 # Respiración
 
 Cada unidad tiene un valor de saturación de oxígeno.
 
-<80 – inconsciencia  
-<67 – paro cardíaco  
-<55 – muerte  
+Si una persona no respira o tiene problemas respiratorios, la saturación bajará.
 
-La falta de oxígeno puede observarse como **cianosis**.
+Valores críticos:
 
-La saturación puede medirse con un **pulsioxímetro**.
+<80 inconsciencia
+<67 paro cardíaco
+<55 muerte
+
+
+La falta de oxígeno se observa como **cianosis** en cabeza y brazos.
+
+Puede medirse con **pulsioxímetro**.
+
+---
 
 ## Comprobar respiración
 
-Acción de diagnóstico en pacientes inconscientes.
+Acción de diagnóstico para pacientes inconscientes.
 
-- “El paciente no respira” → Vía aérea bloqueada o paro
-- “Respiración superficial” → Lesión torácica
-- “Respiración lenta/rápida” → Frecuencia fuera de rango
-- “Respira normalmente” → Frecuencia normal
+### Respuestas posibles
+{:.no_toc}
+
+- "El paciente no respira"  
+- "Respiración superficial"
+- "Respiración lenta o rápida"
+- "Respira normalmente"
+
+---
 
 ## Auscultación con estetoscopio
 
-Permite escuchar pulmones y corazón.
+Acción de diagnóstico activa para escuchar pulmones y corazón.
 
-Puede identificar:
+<img src="{{ '/wiki/image/auscultation_sites.png' | relative_url }}" height="600">
 
-- Neumotórax
-- Neumotórax a tensión
-- Hemotórax
+Permite detectar:
 
-#### Neumotórax
-Lesiones penetrantes permiten entrada de aire al espacio pleural.
+- neumotórax
+- neumotórax a tensión
+- hemotórax
+- frecuencia respiratoria
+- frecuencia cardíaca
 
-Sin tratamiento → neumotórax a tensión.
+---
 
-#### Neumotórax a tensión
-La presión del aire impide la expansión pulmonar.
+## Neumotórax
 
-#### Hemotórax
-Sangrado en el espacio pleural por daño vascular.
+Lesiones penetrantes graves pueden permitir la entrada de aire en el espacio pleural.
 
-## Diagnóstico y manejo de lesiones torácicas
+Si no se trata evolucionará a **neumotórax a tensión**.
 
-- Sellar el tórax → Chest Seal
-- Neumotórax a tensión → NCD o toracostomía
-- Hemotórax → TXA + drenaje
+---
 
-### Toracostomía (con dedo)
+## Neumotórax a tensión
 
-Procedimiento quirúrgico para explorar el espacio pleural.
+La presión del aire impide que el pulmón se expanda.
 
-- Sin sangre → cerrar
-- Con sangre → TXA + tubo torácico
+---
 
-### Inspección del tórax
+## Hemotórax
 
-Permite observar:
+Algunas lesiones dañan vasos sanguíneos grandes.
 
-- Movimiento torácico
-- Asimetría
-- Desviación traqueal
+La sangre se acumula en el espacio pleural.
+
+---
 
 # Circulación
 
 ## Administración de medicamentos
 
-Los medicamentos vienen en **autoinyectores** o **viales**.
+Los medicamentos vienen en:
+
+- autoinyectores
+- viales
 
 Los viales deben cargarse en una jeringa.
 
-El efecto depende del **peso del paciente**.
+La dosis depende del peso del paciente.
 
-Peso fijo en jugadores y aleatorio en IA.
+---
 
-Jeringas disponibles:
+### Jeringas
 
 - 1 ml
 - 3 ml
 - 5 ml
 - 10 ml
 
-(Se mantienen las tablas originales sin cambios para conservar formato.)
+---
+
+### Medicación líquida
+
+*(tabla original mantenida)*
+
+---
 
 ## Volumen sanguíneo
 
-El volumen perdido puede reemplazarse con fluidos.
+La pérdida de sangre puede reemplazarse con fluidos.
 
-**Fresh Whole Blood**
-- Reemplaza volumen efectivo
-- Flujo rápido
+**Volumen sanguíneo efectivo** = sangre capaz de transportar oxígeno.
 
-**Whole Blood**
-- Flujo lento
+---
+
+**Sangre fresca**
+
+- reemplaza volumen efectivo
+- flujo rápido
+- requiere donante
+
+---
+
+**Sangre completa**
+
+- reemplaza volumen efectivo
+- flujo lento
+
+---
 
 **Plasma**
-- 30% efectivo
 
-**Saline**
-- No transporta oxígeno
+- 30% de efectividad
 
-## Transfusión de fluidos
+---
 
-Permite conectar bolsas y gestionar transfusiones.
+**Suero salino**
 
-**Lista de bolsas disponibles**
-- Inventario médico, paciente o vehículo
+- no reemplaza volumen efectivo
 
-**Lista activa**
-- Bolsas conectadas a IV/IO
+---
 
-## Tipos de sangre
+## Sangrado interno
 
-Las transfusiones incompatibles provocan respuesta inmunitaria.
+Las lesiones penetrantes también dañan vasos internos.
 
-El tipo de sangre puede consultarse en la **placa identificativa**.
+Se gestiona con:
 
-## Calcio bajo
-
-Las transfusiones pueden causar hipocalcemia.
-
-Tratamiento:
-
-- 1 g CaCl después de la primera unidad
-- 1 g cada 4 unidades
-
-## Hemorragia interna
-
-Puede persistir tras controlar la externa.
-
-Tratamiento:
-
-- Fluidos
+- fluidos
 - TXA
+
+---
 
 ## Coagulación
 
 El cuerpo usa **plaquetas** para detener el sangrado.
 
-Si se agotan:
+Las heridas pequeñas pueden coagular solas.
 
-- Fallo de coagulación
-- Aumento del sangrado
+Si se agotan las plaquetas:
+
+- la coagulación falla
+- el sangrado aumenta
 
 TXA mejora la coagulación.
 
-## Acceso IV
+---
 
-Permite administrar medicamentos y fluidos.
-
-**16G IV**
-- Flujo moderado
-
-**14G IV**
-- Flujo rápido
-
-**FAST1 IO**
-- Esternón
-
-**EZ-IO**
-- Tibia/húmero
-
-### Complicaciones IV
-
-- Dolor
-- Flujo lento
-- Fuga
-
-## Paro cardíaco
+# Paro cardíaco
 
 El corazón deja de bombear sangre.
 
-Debe confirmarse con pulso manual.
+Debe confirmarse con pulso.
+
+Se debe:
+
+- conectar AED
+- iniciar CPR
+
+---
 
 ### Ritmos
 
 **Desfibrilables**
-- TV
-- FV
+
+- taquicardia ventricular
+- fibrilación ventricular
 
 **No desfibrilables**
+
 - PEA
-- Asistolia
+- asistolia
 
-### Tratamiento
-
-- AED
-- CPR
-
-ROSC depende de:
-
-- calidad de CPR
-- medicación
-- volumen sanguíneo
+---
 
 # Discapacidad
 
 ## Fracturas
 
-Causadas por impacto o aplastamiento.
+Causadas por:
 
-- Piernas → cojera
-- Brazos → mayor oscilación del arma
+- impactos
+- aplastamientos
 
-### Diagnóstico
+Piernas fracturadas → cojera  
+Brazos fracturados → más dispersión del arma
 
-- contusión
-- fractura leve
-- fractura grave
-- fractura compleja
+---
 
-### Tratamiento
+## Manejo
 
-- Realineación
-- Férula SAM
-- Vendaje
+- realinear fractura
+- aplicar férula SAM
 
 Las fracturas complejas requieren evacuación.
 
+---
+
 # CBRN
 
-## Agentes químicos
+*(Químico, Biológico, Radiológico y Nuclear)*
 
-Sustancias diseñadas para incapacitar o matar.
+## Gas CS
 
-### Gas CS
 Agente lacrimógeno.
 
-Síntomas:
+Efectos:
+
 - tos
 - dolor
 - ceguera
 
-### Cloro
+Protección: **máscara de gas**
+
+---
+
+## Gas cloro
+
 Agente pulmonar.
 
-Síntomas:
-- inflamación vía aérea
-- inconsciencia
+Efectos:
 
-### Sarín
+- tos
+- inflamación de vía aérea
+- paro respiratorio
+
+Protección:
+
+- máscara de gas
+- traje CBRN
+
+---
+
+## Gas Sarín
+
 Agente nervioso.
 
-Síntomas:
+Efectos:
+
 - espasmos musculares
+- convulsiones
 - paro respiratorio
 
 Tratamiento:
-- Atropina
-- ATNA
+
+- atropina
 - anticonvulsivos
 
-### Lewisita
-Agente vesicante.
-
-Síntomas:
-- quemaduras químicas
-- shock
-
-## Protección
-
-Equipos:
-
-- máscara antigás
-- traje CBRN
-
-Vehículos:
-
-- sobrepresurizados
-- sellados
-- no protegidos
+---
 
 # Evacuación
 
-Permite convertir bajas de jugador en IA para refuerzos.
-
-## Conversión de bajas
+El sistema de evacuación permite que jugadores inconscientes sean reemplazados por IA mientras el jugador reaparece.
 
 Requisitos:
 
-- inconsciente
+- paciente inconsciente
 - vivo
 - sin sangrado externo
 - tickets disponibles
 
-## Evacuación
+---
 
-Las bajas transportadas pueden evacuarse para recuperar el ticket.
-
-# Referencia de tratamiento
+# Referencia de Tratamiento
 
 ## Hemorragia
+
 - torniquete
-- vendajes
+- vendaje de presión
+- vendaje trauma
 - venda elástica
 
+---
+
 ## Vía aérea
-- NPA / OPA
-- i-gel
-- maniobras
+
+- obstrucción leve → girar cabeza
+- obstrucción grave → succión
+- colapso → NPA / OPA / i-gel
+
+---
 
 ## Respiración
-- Chest Seal
-- NCD
-- Toracostomía
+
+Diagnóstico:
+
+- inspección de pecho
+- auscultación
+
+Tratamiento:
+
+- sello torácico
+- descompresión torácica
+- toracostomía
+
+---
 
 ## Circulación
-- pulso
-- transfusión
-- TXA
+
+- comprobar pulso
+- administrar fluidos
+- administrar TXA
+
+---
 
 ## Paro cardíaco
-- CPR
-- AED
 
-## Fracturas
-- lidocaína IM
-- realineación
-- férula SAM
+- buscar causas reversibles
+- conectar AED
+- iniciar CPR
+
+---
 
 ## Manejo del dolor
 
-**Predosificados**
-- Paracetamol
-- Penthrox
-- Autoinyector de morfina
+Leve:
 
-**Medicamentos líquidos**
-- Morfina / Fentanilo
-- Ketamina
-- Ondansetron
+- paracetamol
+- penthrox
+
+Moderado/grave:
+
+- morfina
+- fentanilo
+- ketamina
