@@ -11,15 +11,15 @@ page_category:
 - circulation
 - iv_access
 
-export_use: "Establishing intravenous access route"
-export_condition: "IV placement must not conflict with applied pressure cuff"
+export_use: "Establecer una vía de acceso intravenoso"
+export_condition: "La colocación IV no debe entrar en conflicto con un manguito de presión aplicado"
 
 infobox_image: "/wiki/image/iv_16g.png"
 
 infobox_use_category: "advanced"
 infobox_use_selection: "limbs"
 
-infobox_item_type: "IV Catheter"
+infobox_item_type: "Catéter IV"
 
 infobox_item_nonmedication: true
 
