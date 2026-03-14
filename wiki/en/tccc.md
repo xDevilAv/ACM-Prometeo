@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: TCCC
-permalink: /en/tcc/
+permalink: /en/tccc/
 ---
 
 # Tactical Combat Casualty Care (TCCC)
