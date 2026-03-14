@@ -239,27 +239,27 @@ Jeringas
 - Jeringa IV/IM de 5 ml
 - Jeringa IV/IM de 10 ml
 
-### Liquid Medication
+### Medicación Líquida
 {:.no_toc}
 <table class="medication-table">
     <tr>
-        <th>Medication</th>
-        <th>Use</th>
-        <th>Access</th>
-        <th>Contents</th>
-        <th>Concentration</th>
-        <th>Dose Range</th>
-        <th>Onset</th>
-        <th>Peak</th>
-        <th>Duration</th>
-        <th>HR</th>
-        <th>BP</th>
-        <th>RR</th>
-        <th>Pain Relief</th>
+        <th>Medicamento</th>
+        <th>Uso</th>
+        <th>Acceso</th>
+        <th>Contenido</th>
+        <th>Concentración</th>
+        <th>Rango de Dosis</th>
+        <th>Inicio</th>
+        <th>Pico</th>
+        <th>Duración</th>
+        <th>FC</th>
+        <th>PA</th>
+        <th>FR</th>
+        <th>Alivio del Dolor</th>
     </tr>
     <tr>
-        <td>Epinephrine</td>
-        <td class="medication-table">Cardiac Arrest</td>
+        <td>Epinefrina</td>
+        <td class="medication-table">Parada cardíaca</td>
         <td>IV/IM</td>
         <td>1mg/1ml</td>
         <td>1mg/ml</td>
@@ -273,60 +273,60 @@ Jeringas
         <td></td>
     </tr>
     <tr>
-        <td>Morphine</td>
-        <td class="medication-table">Managing severe pain</td>
+        <td>Morfina</td>
+        <td class="medication-table">Control del dolor severo</td>
         <td>IV/IM</td>
         <td>10mg/2ml</td>
         <td>5mg/ml</td>
-        <td class="medication-table">(IV) 0.05-0.1mg/kg or 3.75-10mg<br>
-        (IM) 0.07-0.1mg/kg or 4.25-10mg</td>
+        <td class="medication-table">(IV) 0.05-0.1mg/kg o 3.75-10mg<br>
+        (IM) 0.07-0.1mg/kg o 4.25-10mg</td>
         <td><25s/<2m</td>
         <td>~15m/~20m</td>
         <td>~21m/~30m</td>
         <td>--</td>
         <td>--</td>
         <td>--</td>
-        <td>STRONG</td>
+        <td>FUERTE</td>
     </tr>
     <tr>
-        <td>Fentanyl</td>
-        <td class="medication-table">Managing severe pain</td>
+        <td>Fentanilo</td>
+        <td class="medication-table">Control del dolor severo</td>
         <td>IV/IM</td>
         <td>100mcg/2ml</td>
         <td>50mcg/ml</td>
-        <td class="medication-table">(IV) 0.5-1mcg/kg or 38-100mcg<br>
-        (IM) 0.7-1mcg/kg or 52-100mcg</td>
+        <td class="medication-table">(IV) 0.5-1mcg/kg o 38-100mcg<br>
+        (IM) 0.7-1mcg/kg o 52-100mcg</td>
         <td><10s/<30s</td>
         <td>~14m/~15m</td>
         <td>~16m/~20m</td>
         <td>--</td>
         <td>--</td>
         <td>--</td>
-        <td>VERY STRONG</td>
+        <td>MUY FUERTE</td>
     </tr>
     <tr>
-        <td>Ketamine</td>
-        <td class="medication-table">Managing severe pain with compromised breathing ability</td>
+        <td>Ketamina</td>
+        <td class="medication-table">Control del dolor severo con capacidad respiratoria comprometida</td>
         <td>IV/IM</td>
         <td>500mg/10ml</td>
         <td>50mg/ml</td>
-        <td class="medication-table">(IV) 0.1-0.2mg/kg or 7.5-21mg<br>
-        (IM) 0.4-0.8mg/kg or 30-84mg</td>
+        <td class="medication-table">(IV) 0.1-0.2mg/kg o 7.5-21mg<br>
+        (IM) 0.4-0.8mg/kg o 30-84mg</td>
         <td><5s/<20s</td>
         <td>~9m/~10m</td>
         <td>~11m/~15m</td>
         <td></td>
         <td></td>
         <td></td>
-        <td>STRONG</td>
+        <td>FUERTE</td>
     </tr>
     <tr>
-        <td>Amiodarone</td>
-        <td class="medication-table">Treatment of shockable cardiac arrest (VT/VF)</td>
+        <td>Amiodarona</td>
+        <td class="medication-table">Tratamiento de parada cardíaca desfibrilable (VT/VF)</td>
         <td>IV</td>
         <td>150mg/3ml</td>
         <td>50mg/ml</td>
-        <td class="medication-table">300mg, up to 2200mg</td>
+        <td class="medication-table">300mg, hasta 2200mg</td>
         <td><10s</td>
         <td>~8m</td>
         <td>~12m</td>
@@ -336,13 +336,13 @@ Jeringas
         <td></td>
     </tr>
     <tr>
-        <td>Lidocaine</td>
-        <td class="medication-table">(IV) Treatment of shockable cardiac arrest (VT/VF)<br>
-        (IM) In advance of painful procedures</td>
+        <td>Lidocaína</td>
+        <td class="medication-table">(IV) Tratamiento de parada cardíaca desfibrilable (VT/VF)<br>
+        (IM) Antes de procedimientos dolorosos</td>
         <td>IV/IM</td>
         <td>100mg/5ml</td>
         <td>20mg/ml</td>
-        <td class="medication-table">(IV) 1mg/kg, up to 3mg/kg<br>
+        <td class="medication-table">(IV) 1mg/kg, hasta 3mg/kg<br>
         (IM) 50-100mg</td>
         <td><5s/<10s</td>
         <td>~6m/~4m</td>
@@ -353,7 +353,7 @@ Jeringas
     </tr>
     <tr>
         <td>TXA</td>
-        <td class="medication-table">Managing severe internal or external bleeding</td>
+        <td class="medication-table">Control de hemorragia interna o externa severa</td>
         <td>IV</td>
         <td>1g/10ml</td>
         <td>100mg/ml</td>
@@ -367,12 +367,12 @@ Jeringas
         <td></td>
     </tr>
     <tr>
-        <td>Ondansetron</td>
-        <td class="medication-table">Managing nausea from medications, vomiting</td>
+        <td>Ondansetrón</td>
+        <td class="medication-table">Control de náuseas por medicación o vómitos</td>
         <td>IV/IM</td>
         <td>4mg/2ml</td>
         <td>2mg/ml</td>
-        <td class="medication-table">4mg, up to 8mg</td>
+        <td class="medication-table">4mg, hasta 8mg</td>
         <td><15s/<45s</td>
         <td>~10m/~12m</td>
         <td>~12m/~15m</td>
@@ -382,12 +382,12 @@ Jeringas
         <td></td>
     </tr>
     <tr>
-        <td>Calcium Chloride</td>
-        <td class="medication-table">Managing low calcium after blood transfusion</td>
+        <td>Cloruro de Calcio</td>
+        <td class="medication-table">Tratamiento de hipocalcemia tras transfusión sanguínea</td>
         <td>IV</td>
         <td>1g/10ml</td>
         <td>100mg/ml</td>
-        <td class="medication-table">1g after first unit, then 1g after every 4 units of blood</td>
+        <td class="medication-table">1g tras la primera unidad, luego 1g cada 4 unidades de sangre</td>
         <td><15s</td>
         <td>~5m</td>
         <td>~10m</td>
@@ -398,7 +398,7 @@ Jeringas
     </tr>
     <tr>
         <td>Esmolol</td>
-        <td class="medication-table">Lowering heart rate for a short time</td>
+        <td class="medication-table">Reducir la frecuencia cardíaca durante un corto periodo</td>
         <td>IV</td>
         <td>100mg/10ml</td>
         <td>10mg/ml</td>
@@ -413,7 +413,7 @@ Jeringas
     </tr>
     <tr>
         <td>Ertapenem</td>
-        <td class="medication-table">Managing wound infection, requirement for evacuation</td>
+        <td class="medication-table">Tratamiento de infección de heridas, requisito para evacuación</td>
         <td>IV/IM</td>
         <td>1g/3.2ml</td>
         <td>312.5mg/ml</td>
@@ -427,7 +427,7 @@ Jeringas
         <td></td>
     </tr>
     <tr>
-        <td>Adenosine</td>
+        <td>Adenosina</td>
         <td></td>
         <td>IV</td>
         <td>12mg/4ml</td>
@@ -441,13 +441,13 @@ Jeringas
         <td></td>
     </tr>
     <tr>
-        <td>Atropine</td>
-        <td class="medication-table">Treating nerve agent exposure, increasing heart rate</td>
+        <td>Atropina</td>
+        <td class="medication-table">Tratamiento de exposición a agentes nerviosos, aumento de frecuencia cardíaca</td>
         <td>IV/IM</td>
         <td>1mg/1ml</td>
         <td>1mg/ml</td>
-        <td class="medication-table">(Nerve Agent Exposure) 2-4mg initial, more if required<br>
-        (Bradycardia) >1mg</td>
+        <td class="medication-table">(Exposición a agente nervioso) 2-4mg inicial, más si es necesario<br>
+        (Bradicardia) >1mg</td>
         <td><5s/<15s</td>
         <td>~10m</td>
         <td>~15m</td>
@@ -458,11 +458,11 @@ Jeringas
     </tr>
     <!--<tr>
         <td>Dimercaprol</td>
-        <td class="medication-table">Treating lewisite exposure</td>
+        <td class="medication-table">Tratamiento de exposición a lewisita</td>
         <td>IM</td>
         <td>300mg/3ml</td>
         <td>100mg/ml</td>
-        <td class="medication-table">3mg/kg, up to 5mg/kg</td>
+        <td class="medication-table">3mg/kg, hasta 5mg/kg</td>
         <td><30s</td>
         <td>~15m</td>
         <td>~30m</td>
@@ -473,86 +473,87 @@ Jeringas
     </tr>-->
 </table>
 
-### Other
+
+### Otros
 {:.no_toc}
 
 <table class="medication-table">
     <tr>
-        <th>Medication</th>
-        <th>Use</th>
-        <th>Access</th>
-        <th>Uses</th>
-        <th>Recommended Dose</th>
-        <th>Onset</th>
-        <th>Peak</th>
-        <th>Duration</th>
-        <th>HR</th>
-        <th>BP</th>
-        <th>RR</th>
-        <th>Pain Relief</th>
+        <th>Medicamento</th>
+        <th>Uso</th>
+        <th>Vía</th>
+        <th>Usos</th>
+        <th>Dosis Recomendada</th>
+        <th>Inicio</th>
+        <th>Pico</th>
+        <th>Duración</th>
+        <th>FC</th>
+        <th>PA</th>
+        <th>FR</th>
+        <th>Alivio del Dolor</th>
     </tr>
     <tr>
-        <td>Morphine Autoinjector</td>
-        <td class="medication-table">Managing moderate to severe pain</td>
+        <td>Autoinyector de Morfina</td>
+        <td class="medication-table">Control del dolor moderado a severo</td>
         <td>IM</td>
         <td>1x</td>
-        <td class="medication-table">1 injection (5mg IM equivalent)</td>
+        <td class="medication-table">1 inyección (equivalente a 5mg IM)</td>
         <td><2m</td>
         <td>~20m</td>
         <td>~30m</td>
         <td>--</td>
         <td>--</td>
         <td>--</td>
-        <td>STRONG</td>
+        <td>FUERTE</td>
     </tr>
     <tr>
-        <td>Fentanyl Lozenge (OTFC)</td>
-        <td class="medication-table">Managing severe pain</td>
+        <td>Pastilla de Fentanilo (OTFC)</td>
+        <td class="medication-table">Control del dolor severo</td>
         <td>BUC</td>
         <td>1x</td>
-        <td class="medication-table">1 lozenge</td>
+        <td class="medication-table">1 pastilla</td>
         <td><2m</td>
         <td>~10m</td>
         <td>~15m</td>
         <td>-</td>
         <td>-</td>
         <td>--</td>
-        <td>VERY STRONG</td>
+        <td>MUY FUERTE</td>
     </tr>
     <tr>
-        <td>Penthrox Inhaler</td>
-        <td class="medication-table">Managing moderate to severe pain for a short time</td>
+        <td>Inhalador Penthrox</td>
+        <td class="medication-table">Control del dolor moderado a severo durante un corto periodo</td>
         <td>INH</td>
         <td>8x</td>
-        <td class="medication-table">1-5 uses</td>
+        <td class="medication-table">1-5 usos</td>
         <td><3s</td>
         <td><90s</td>
         <td>~4m</td>
         <td>-</td>
         <td></td>
         <td></td>
-        <td>MODERATE</td>
+        <td>MODERADO</td>
     </tr>
     <tr>
         <td>Paracetamol</td>
-        <td class="medication-table">Managing mild to moderate pain</td>
+        <td class="medication-table">Control del dolor leve a moderado</td>
         <td>PO</td>
         <td>10x</td>
-        <td class="medication-table">1-2 pills</td>
+        <td class="medication-table">1-2 pastillas</td>
         <td><4m</td>
         <td>~15m</td>
         <td>~50m</td>
         <td></td>
         <td></td>
         <td></td>
-        <td>WEAK</td>
+        <td>DÉBIL</td>
     </tr>
     <tr>
-        <td>Naloxone Spray</td>
-        <td class="medication-table">Reversing opioid overdose</td>
+        <td>Spray de Naloxona</td>
+        <td class="medication-table">Revertir sobredosis de opioides</td>
         <td>IN</td>
         <td>1x</td>
-        <td class="medication-table">1-2 uses</td>
+        <td class="medication-table">1-2 usos</td>
         <td><3s</td>
         <td>~2m</td>
         <td>~6m</td>
@@ -562,8 +563,8 @@ Jeringas
         <td></td>
     </tr>
     <tr>
-        <td>Ammonia Inhalant</td>
-        <td class="medication-table">Waking up patients</td>
+        <td>Inhalante de Amoníaco</td>
+        <td class="medication-table">Despertar pacientes</td>
         <td>IN</td>
         <td>8x</td>
         <td></td>
@@ -576,7 +577,7 @@ Jeringas
         <td></td>
     </tr>
     <tr>
-        <td>Epinephrine Autoinjector (EpiPen)</td>
+        <td>Autoinyector de Epinefrina (EpiPen)</td>
         <td></td>
         <td>IM</td>
         <td>1x</td>
@@ -590,11 +591,11 @@ Jeringas
         <td></td>
     </tr>
     <tr>
-        <td>ATNA Autoinjector</td>
-        <td class="medication-table">Treating nerve agent exposure</td>
+        <td>Autoinyector ATNA</td>
+        <td class="medication-table">Tratamiento de exposición a agentes nerviosos</td>
         <td>IM</td>
         <td>1x</td>
-        <td class="medication-table">2-3 injections initial</td>
+        <td class="medication-table">2-3 inyecciones iniciales</td>
         <td><15s</td>
         <td>~10m</td>
         <td>~15m</td>
@@ -604,11 +605,11 @@ Jeringas
         <td></td>
     </tr>
     <tr>
-        <td>Midazolam Autoinjector</td>
-        <td class="medication-table">Managing seizure activity caused by nerve agent exposure</td>
+        <td>Autoinyector de Midazolam</td>
+        <td class="medication-table">Control de convulsiones causadas por exposición a agentes nerviosos</td>
         <td>IM</td>
         <td>1x</td>
-        <td class="medication-table">1 injection</td>
+        <td class="medication-table">1 inyección</td>
         <td><30s</td>
         <td>~15m</td>
         <td>~20m</td>
