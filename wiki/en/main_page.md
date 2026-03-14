@@ -18,20 +18,18 @@ layout: default
 </div>
 
 <script>
-document.addEventListener("DOMContentLoaded", function() {
+function enterManual() {
 
 const intro = document.getElementById("intro-screen");
-const button = document.getElementById("enter-button");
 
-button.addEventListener("click", function(){
-
+intro.style.transition = "opacity 0.8s ease";
 intro.style.opacity = "0";
 
 setTimeout(function(){
 intro.style.display = "none";
-}, 800);
+},800);
 
-});
+}
 
-});
+document.getElementById("enter-button").onclick = enterManual;
 </script>
