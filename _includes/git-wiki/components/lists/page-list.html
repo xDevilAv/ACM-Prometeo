@@ -1,29 +1,22 @@
 <div class="git-wiki-page-list">
-    {% if site.inc_before_page_list %}
-    {% include {{ site.inc_before_page_list }} %}
-    {% endif %}
 
-    <span class="page-list-title">Pages {% if (site.show_wiki_pages_limit >= 1 %} (Latest {{site.show_wiki_pages_limit
-        }} updated) {% endif %}:</span>
-    <ul class="page-list">
-        {% assign numPages=0 %}
-        {% assign items = site.html_pages | sort: 'date' | reverse %}
-        {% for page in items %}
-        {% if numPages >= site.show_wiki_pages_limit %}
-        {% break %}
-        {% endif %}
-        {% if page.is_wiki_page != false and page.sitemap != false %}
-        <li class="page-list-item">
-            {% assign title = page.title | default: page.name %}
-            <a href="{{ page.url | relative_url }}">{{title | escape}}</a>
-        </li>
-        {% assign numPages = numPages | plus: 1 %}
-        {% endif %}
+<span class="page-list-title">Protocolos</span>
+<ul class="page-list">
+<li class="page-list-item"><a href="{{ '/march' | relative_url }}">MARCH</a></li>
+<li class="page-list-item"><a href="{{ '/tcc' | relative_url }}">TCCC</a></li>
+</ul>
 
-        {% endfor %}
-    </ul>
+<span class="page-list-title">Equipo Médico</span>
+<ul class="page-list">
+<li class="page-list-item"><a href="{{ '/tourniquet' | relative_url }}">Tourniquet</a></li>
+<li class="page-list-item"><a href="{{ '/thoracostomy-kit' | relative_url }}">Thoracostomy Kit</a></li>
+<li class="page-list-item"><a href="{{ '/syringe' | relative_url }}">Syringe</a></li>
+<li class="page-list-item"><a href="{{ '/surgical-airway' | relative_url }}">Surgical Airway</a></li>
+<li class="page-list-item"><a href="{{ '/suction-bag' | relative_url }}">Suction Bag</a></li>
+<li class="page-list-item"><a href="{{ '/stethoscope' | relative_url }}">Stethoscope</a></li>
+<li class="page-list-item"><a href="{{ '/sam-splint' | relative_url }}">SAM Splint</a></li>
+<li class="page-list-item"><a href="{{ '/saline-bag' | relative_url }}">Saline Bag</a></li>
+<li class="page-list-item"><a href="{{ '/pulse-oximeter' | relative_url }}">Pulse Oximeter</a></li>
+</ul>
 
-    {% if site.inc_after_page_list %}
-    {% include {{ site.inc_after_page_list }} %}
-    {% endif %}
 </div>
