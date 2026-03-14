@@ -8,20 +8,38 @@ published: true
 ---
 
 <div id="intro-screen">
-<div class="intro-content">
-<img src="{{ '/wiki/image/logo.png' | relative_url }}" class="intro-logo">
-<h1>ACM Devil Medical</h1>
-<p>Bienvenido al manual médico</p>
-</div>
+  <div class="intro-content">
+    <img src="/spanishac/wiki/image/logo.png" class="intro-logo">
+
+    <h1>ACM Devil Medical</h1>
+    <p>Bienvenido al manual médico</p>
+
+    <button id="enter-button">Entrar</button>
+  </div>
 </div>
 
 <script>
-window.addEventListener("load", function() {
-    const intro = document.getElementById("intro-screen");
+document.addEventListener("DOMContentLoaded", function(){
 
-    setTimeout(() => {
-        intro.style.opacity = "0";
-        setTimeout(() => intro.remove(), 1000);
-    }, 2000);
+  const intro = document.getElementById("intro-screen");
+  const button = document.getElementById("enter-button");
+
+  if(localStorage.getItem("introSeen")){
+      intro.style.display = "none";
+      return;
+  }
+
+  button.addEventListener("click", function(){
+
+      intro.style.opacity = "0";
+
+      setTimeout(() => {
+          intro.remove();
+      }, 800);
+
+      localStorage.setItem("introSeen", true);
+
+  });
+
 });
 </script>
