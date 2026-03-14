@@ -63,7 +63,7 @@ z-index:999999;
 display:flex;
 justify-content:center;
 align-items:center;
-transition:opacity 1s ease;
+transition:opacity 0.8s;
 }
 
 .intro-content{
@@ -73,5 +73,19 @@ color:#ff0033;
 
 .intro-logo{
 width:220px;
-margin-bottom:25px;
+margin-bottom:30px;
+}
+
+#enter-button{
+margin-top:20px;
+padding:10px 30px;
+font-size:16px;
+background:#ff0033;
+color:white;
+border:none;
+cursor:pointer;
+}
+
+#enter-button:hover{
+background:#cc0028;
 }
