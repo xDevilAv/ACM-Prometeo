@@ -11,7 +11,7 @@ layout: default
 <div id="intro-screen">
   <div class="intro-content">
 
-    <img src="/spanishac/wiki/image/logo.png" class="intro-logo">
+    <img src="{{ '/wiki/image/logo.png' | relative_url }}" class="intro-logo">
 
     <h1 class="intro-title">ACM Devil Medical</h1>
     <p class="intro-text">Bienvenido al manual médico</p>
