@@ -8,15 +8,15 @@ page_category:
 - medication
 - liquid_medication
 
-export_use: "Treatment of shockable cardiac arrest (VT/VF)"
-export_doserange: "300mg, up to 2200mg"
+export_use: "Tratamiento de parada cardíaca con ritmo desfibrilable (VT/VF)"
+export_doserange: "300mg, hasta 2200mg"
 
 infobox_image: "/wiki/image/vial_amiodarone.png"
 
 infobox_use_category: "medication"
 infobox_use_selection: "body"
 
-infobox_item_type: "Antiarrhythmic Medication"
+infobox_item_type: "Medicamento antiarrítmico"
 infobox_item_weight: "0.01kg | 0.02lb"
 
 infobox_item_classname: "ACM_Vial_Amiodarone"
@@ -39,38 +39,38 @@ infobox_med_effect_bp: -2
 
 {% include git-wiki/components/infobox/item_infobox.html %}
 
-Amiodarone is a medication used to treat and prevent certain cardiac arrhythmias.
+La amiodarona es un medicamento utilizado para tratar y prevenir ciertas arritmias cardíacas.
 
-# Function
-Amiodarone is used in the case of shockable cardiac arrest, pushed amiodarone will slow the heart in an attempt to stabilize the rhythm.
+# Función
+La amiodarona se utiliza en casos de parada cardíaca con ritmo desfibrilable. Al administrarse, la amiodarona ralentiza el corazón con el objetivo de estabilizar el ritmo cardíaco.
 
-Amiodarone is administered intravenously with a rapid onset, moderate peak and duration.
+La amiodarona se administra por vía intravenosa con un inicio rápido, un pico moderado y una duración moderada.
 
-Amiodarone has no effect if administered intramuscularly.
+La amiodarona no tiene efecto si se administra por vía intramuscular.
 
-# Usage
+# Uso
 {% include git-wiki/components/template/action_note.html name="Use Syringe" bodypart="Torso and Limbs" category="medication" %}
 {% include git-wiki/components/template/action_note.html name="Push Amiodarone" bodypart="Torso and Limbs" category="medication" %}
 
-Medications require a {% include hl.html t="Syringe" i="/wiki/image/syringe_5.png" %} to be able to be drawn and administered.
+Los medicamentos requieren una {% include hl.html t="Syringe" i="/wiki/image/syringe_5.png" %} para poder extraerse y administrarse.
 
-IV access is achieved with IV Catheters or IO devices.
+El acceso IV se logra mediante catéteres IV o dispositivos IO.
 
-## Dosing
-**Cardiac Arrest:** Push 300mg IV, up to 2200mg
+## Dosificación
+**Parada cardíaca:** Administrar 300mg IV en bolo, hasta un máximo de 2200mg.
 
-## Effects
+## Efectos
 {% include git-wiki/components/template/section_med_effects.html %}
 
-#### Potential Complications
-- Bradycardia
-- Cardiac Arrest
+#### Posibles complicaciones
+- Bradicardia
+- Paro cardíaco
 
-## Indications
-- Shockable Cardiac Arrest (PVT/VF)
+## Indicaciones
+- Parada cardíaca con ritmo desfibrilable (PVT/VF)
 
-## Contraindications
-- Bradycardia
+## Contraindicaciones
+- Bradicardia
 
-# External Links
+# Enlaces externos
 - [Amiodarone (Wikipedia)](https://en.wikipedia.org/wiki/Amiodarone)
