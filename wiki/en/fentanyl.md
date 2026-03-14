@@ -8,15 +8,15 @@ page_category:
 - medication
 - liquid_medication
 
-export_use: "Managing severe pain"
-export_doserange: "(IV) 0.5-1mcg/kg or 38-100mcg<br>(IM) 0.7-1mcg/kg or 52-100mcg"
+export_use: "Control del dolor intenso"
+export_doserange: "(IV) 0.5-1mcg/kg o 38-100mcg<br>(IM) 0.7-1mcg/kg o 52-100mcg"
 
 infobox_image: "/wiki/image/vial_fentanyl.png"
 
 infobox_use_category: "medication"
 infobox_use_selection: "body"
 
-infobox_item_type: "Analgesic Opioid Medication"
+infobox_item_type: "Medicamento opioide analgésico"
 infobox_item_weight: "0.01kg | 0.02lb"
 
 infobox_item_classname: "ACM_Vial_Fentanyl"
@@ -41,51 +41,51 @@ infobox_med_effect_hr: -2
 infobox_med_effect_bp: -2
 infobox_med_effect_rr: -2
 
-infobox_med_pain: "VERY STRONG"
+infobox_med_pain: "MUY FUERTE"
 ---
 
 {% include git-wiki/components/infobox/item_infobox.html %}
 
-Fentanyl is an opioid medication used to manage severe pain.
+El fentanilo es un medicamento opioide utilizado para controlar el dolor intenso.
 
-# Function
-Fentanyl is used to combat severe pain caused by injuries or other medical procedures.
+# Función
+El fentanilo se utiliza para combatir el dolor intenso causado por lesiones u otros procedimientos médicos.
 
-Fentanyl is very effective at managing severe pain, with the most notable side effect being a lower respiration rate, and with significant doses a lower heart rate.
+El fentanilo es muy eficaz para controlar el dolor intenso. El efecto secundario más notable es la disminución de la frecuencia respiratoria y, con dosis significativas, también puede reducir la frecuencia cardíaca.
 
-Fentanyl is administered intravenously or intramuscularly with a rapid onset, moderate peak and duration.
+El fentanilo se administra por vía intravenosa o intramuscular con un inicio rápido, pico moderado y duración moderada.
 
-# Usage
+# Uso
 {% include git-wiki/components/template/action_note.html name="Use Syringe" bodypart="Torso and Limbs" category="medication" %}
 {% include git-wiki/components/template/action_note.html name="Push Fentanyl" bodypart="Torso and Limbs" category="medication" %}
 {% include git-wiki/components/template/action_note.html name="Inject Fentanyl" bodypart="Torso and Limbs" category="medication" %}
 
-Medications require a {% include hl.html t="Syringe" i="/wiki/image/syringe_5.png" %} to be able to be drawn and administered.
+Los medicamentos requieren una {% include hl.html t="Syringe" i="/wiki/image/syringe_5.png" %} para poder extraerse y administrarse.
 
-IV access is achieved with IV Catheters or IO devices.
+El acceso IV se consigue mediante catéteres IV o dispositivos IO.
 
-Medications can be administered intramuscularly with just a syringe.
+Los medicamentos pueden administrarse por vía intramuscular utilizando únicamente una jeringa.
 
-## Dosing
-Range is based on required analgesia<br>
-**IV:** Push 0.5-1mcg/kg, or 38-100mcg<br>
-**IM:** Inject 0.7-1mcg/kg, or 52-100mcg
+## Dosificación
+El rango depende del nivel de analgesia requerido<br>
+**IV:** Administrar 0.5-1mcg/kg, o 38-100mcg<br>
+**IM:** Inyectar 0.7-1mcg/kg, o 52-100mcg
 
-## Effects
+## Efectos
 {% include git-wiki/components/template/section_med_effects.html %}
 
-#### Potential Complications
-- Bradycardia
-- Hypoventilation
-- Respiratory Arrest
-- Cardiac Arrest
+#### Posibles complicaciones
+- Bradicardia
+- Hipoventilación
+- Parada respiratoria
+- Paro cardíaco
 
-## Indications
-- Severe Pain
+## Indicaciones
+- Dolor intenso
 
-## Contraindications
-- Chest Injury
-- Impaired Breathing Ability
+## Contraindicaciones
+- Lesión torácica
+- Capacidad respiratoria comprometida
 
-# External Links
+# Enlaces externos
 - [Fentanyl (Wikipedia)](https://en.wikipedia.org/wiki/Fentanyl)
