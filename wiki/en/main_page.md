@@ -1,5 +1,5 @@
 ---
-title: Main Page
+title: Página Inicio
 permalink: /en/Main_Page
 layout: default
 ---
