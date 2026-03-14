@@ -9,7 +9,7 @@ page_category:
 - external_bleeding_management
 - multi_use_item
 
-export_use: "Stopping bleeding on limbs"
+export_use: "Detener el sangrado en las extremidades"
 
 infobox_image: "/wiki/image/tourniquet.png"
 
@@ -19,7 +19,7 @@ infobox_item_usecount: 0
 
 infobox_item_nonmedication: true
 
-infobox_item_type: "Hemorrhage Control Device"
+infobox_item_type: "Dispositivo de control de hemorragias"
 infobox_item_weight: "0.05kg | 0.1lb"
 
 infobox_item_classname: "ACE_tourniquet"
