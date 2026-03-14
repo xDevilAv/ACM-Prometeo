@@ -11,15 +11,15 @@ page_category:
 - breathing
 - chest_injury_management
 
-export_use: "Managing hemothorax"
-export_condition: "Must have performed thoracostomy incision"
+export_use: "Tratamiento del hemotórax"
+export_condition: "Debe haberse realizado una incisión de toracostomía"
 
 infobox_image: "/wiki/image/kit_chesttube.png"
 
 infobox_use_category: "airway"
 infobox_use_selection: "torso"
 
-infobox_item_type: "Chest Injury Treatment Kit"
+infobox_item_type: "Kit de tratamiento para lesiones torácicas"
 
 infobox_item_nonmedication: true
 
