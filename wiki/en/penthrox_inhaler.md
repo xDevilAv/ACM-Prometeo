@@ -11,7 +11,7 @@ page_category:
 - packaged_medication
 - multi_use_item
 
-export_use: "Managing moderate to severe pain for a short time"
+export_use: "Tratamiento del dolor moderado a severo durante un corto periodo de tiempo"
 
 infobox_image: "/wiki/image/inhaler_penthrox.png"
 
@@ -19,19 +19,19 @@ infobox_use_category: "medication"
 infobox_use_selection: "head"
 infobox_item_usecount: 8
 
-infobox_item_type: "Analgesic Inhaler"
+infobox_item_type: "Inhalador analgésico"
 infobox_item_weight: "0.01kg | 0.03lb"
 
 infobox_item_classname: "ACM_Inhaler_Penthrox"
 
-infobox_med_dose: "1-3 uses"
+infobox_med_dose: "1-3 usos"
 
 infobox_med_route: "INH"
 infobox_med_onset: "<3s"
 infobox_med_peak: "<90s"
 infobox_med_duration: "~4m"
 
-infobox_med_pain: "MODERATE"
+infobox_med_pain: "MODERADO"
 ---
 
 {% include git-wiki/components/infobox/item_infobox.html %}
