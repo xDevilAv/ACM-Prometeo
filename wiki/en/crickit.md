@@ -1,5 +1,5 @@
 ---
-title: CricKit
+title: Kit de cricotiroidotomía
 permalink: /en/CricKit
 published: true
 
