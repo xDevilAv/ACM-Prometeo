@@ -1,11 +1,23 @@
-<footer>
-    {% if site.inc_before_footer %}
-    {% include {{ site.inc_before_footer }} %}
-    {% endif %}
+<footer class="site-footer">
 
-    {% include git-wiki/components/copyrights/copyrights.html %}
+<div class="footer-content">
 
-    {% if site.inc_after_footer %}
-    {% include {{ site.inc_after_footer }} %}
-    {% endif %}
+<p><strong>ACM</strong></p>
+
+<p>
+Tactical Combat Casualty Care Reference for PROMETEO
+</p>
+
+<p>
+<a href="{{ '/en/Main_Page' | relative_url }}">Home</a> |
+<a href="{{ '/en/march' | relative_url }}">MARCH</a> |
+<a href="{{ '/en/tccc' | relative_url }}">TCCC</a>
+</p>
+
+<p class="footer-copy">
+© Original ACM // traduccion DevilAv
+</p>
+
+</div>
+
 </footer>
