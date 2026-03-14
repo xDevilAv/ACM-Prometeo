@@ -8,14 +8,14 @@ page_category:
 - medication
 - liquid_medication
 
-export_use: "Managing severe internal or external bleeding"
+export_use: "Manejo de hemorragias internas o externas graves"
 
 infobox_image: "/wiki/image/vial_txa.png"
 
 infobox_use_category: "medication"
 infobox_use_selection: "body"
 
-infobox_item_type: "Antifibrinolytic Medication"
+infobox_item_type: "Medicamento antifibrinolítico"
 infobox_item_weight: "0.01kg | 0.02lb"
 
 infobox_item_classname: "ACM_Vial_TXA"
@@ -37,39 +37,39 @@ infobox_med_effect_bp: -1
 
 {% include git-wiki/components/infobox/item_infobox.html %}
 
-TXA (Tranexamic Acid) is a medication used to slow bleeding and improve coagulation.
+TXA (**ácido tranexámico**) es un medicamento utilizado para reducir el sangrado y mejorar la coagulación.
 
-# Function
-TXA is used to slow bleeding and improve coagulation by slowing the breakdown of clots in the body.
+# Función
+El TXA se utiliza para reducir el sangrado y mejorar la coagulación al ralentizar la degradación de los coágulos en el cuerpo.
 
-TXA is administered intravenously with a quick onset, moderate peak and duration.
+El TXA se administra por vía intravenosa con un inicio rápido, un pico moderado y una duración moderada.
 
-TXA has no effect if administered intramuscularly.
+El TXA no tiene efecto si se administra por vía intramuscular.
 
-# Usage
+# Uso
 {% include git-wiki/components/template/action_note.html name="Use Syringe" bodypart="Torso and Limbs" category="medication" %}
 {% include git-wiki/components/template/action_note.html name="Push TXA" bodypart="Torso and Limbs" category="medication" %}
 
-Medications require a {% include hl.html t="Syringe" i="/wiki/image/syringe_5.png" %} to be able to be drawn and administered.
+Los medicamentos requieren una {% include hl.html t="Syringe" i="/wiki/image/syringe_5.png" %} para poder extraerse y administrarse.
 
-IV access is achieved with IV Catheters or IO devices.
+El acceso IV se consigue mediante catéteres IV o dispositivos IO.
 
-## Dosing
-Push 1-2g IV, repeat every 10-15 minutes for continued bleeding
+## Dosificación
+Administrar 1–2 g IV. Repetir cada 10–15 minutos si el sangrado continúa.
 
-## Effects
+## Efectos
 {% include git-wiki/components/template/section_med_effects.html %}
 
-#### Potential Complications
-- Hypotension
+#### Posibles complicaciones
+- Hipotensión
 
-## Indications
-- External/Internal Bleeding
-- Hemothorax
+## Indicaciones
+- Hemorragia externa o interna
+- Hemotórax
 
-## Contraindications
+## Contraindicaciones
 - N/A
 
-# External Links
+# Enlaces externos
 - [Tranexamic Acid (Wikipedia)](https://en.wikipedia.org/wiki/Tranexamic_acid)
 - [Shock Recognition and Management - Tranexamic Acid (TXA) Administration (TCCC.org.ua)](https://tccc.org.ua/en/guide/module-10-shock-recognition-and-management-cmc#n13)
