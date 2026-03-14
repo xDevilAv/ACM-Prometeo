@@ -2,9 +2,10 @@
 title: Main Page
 permalink: /en/Main_Page
 redirect_from:
-  - "/"
-  - "/en"
+    - "/"
+    - "/en"
 published: true
+layout: default
 ---
 
 <div id="intro-screen">
