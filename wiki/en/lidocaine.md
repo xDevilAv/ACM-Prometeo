@@ -8,15 +8,15 @@ page_category:
 - medication
 - liquid_medication
 
-export_use: "(IV) Treatment of shockable cardiac arrest (VT/VF)<br>(IM) In advance of painful procedures"
-export_doserange: "(IV) 1mg/kg, up to 3mg/kg<br>(IM) 50-100mg"
+export_use: "(IV) Tratamiento de paro cardíaco desfibrilable (VT/VF)<br>(IM) Antes de procedimientos dolorosos"
+export_doserange: "(IV) 1mg/kg, hasta 3mg/kg<br>(IM) 50-100mg"
 
 infobox_image: "/wiki/image/vial_lidocaine.png"
 
 infobox_use_category: "medication"
 infobox_use_selection: "body"
 
-infobox_item_type: "Local Anesthetic, Antiarrhythmic Medication"
+infobox_item_type: "Anestésico local, medicamento antiarrítmico"
 infobox_item_weight: "0.01kg | 0.02lb"
 
 infobox_item_classname: "ACM_Vial_Lidocaine"
@@ -41,51 +41,51 @@ infobox_med_effect_hr_route: "IV"
 infobox_med_effect_bp: -2
 infobox_med_effect_bp_route: "IV"
 
-infobox_med_nausea: "MODERATE"
+infobox_med_nausea: "MODERADO"
 ---
 
 {% include git-wiki/components/infobox/item_infobox.html %}
 
-Lidocaine, is a medication used as a local anesthetic and for treatment of shockable cardiac arrest.
+La lidocaína es un medicamento utilizado como anestésico local y para el tratamiento del paro cardíaco desfibrilable.
 
-# Function
-Lidocaine is used as a local anesthetic to prevent pain from certain medical procedures, and to treat shockable cardiac arrest.
+# Función
+La lidocaína se utiliza como anestésico local para prevenir el dolor durante ciertos procedimientos médicos y para tratar el paro cardíaco desfibrilable.
 
-Lidocaine can be administered intravenously or intramuscularly, depending on the desired effect, with a fast onset, short peak and duration.
+La lidocaína puede administrarse por vía intravenosa o intramuscular, dependiendo del efecto deseado, con un inicio rápido, pico corto y duración breve.
 
-Intravenously administered lidocaine will slow the heart rate and improve Return of Spontaneous Circulation from shockable cardiac arrest rhythms.
+La lidocaína administrada por vía intravenosa reducirá la frecuencia cardíaca y mejorará el retorno de la circulación espontánea en ritmos de paro cardíaco desfibrilables.
 
-Intramuscularly administered lidocaine will act as a local anesthetic at the injection location.
+La lidocaína administrada por vía intramuscular actuará como anestésico local en el lugar de la inyección.
 
-# Usage
+# Uso
 {% include git-wiki/components/template/action_note.html name="Use Syringe" bodypart="Torso and Limbs" category="medication" %}
 {% include git-wiki/components/template/action_note.html name="Push Lidocaine" bodypart="Torso and Limbs" category="medication" %}
 {% include git-wiki/components/template/action_note.html name="Inject Lidocaine" bodypart="Torso and Limbs" category="medication" %}
 
-Medications require a {% include hl.html t="Syringe" i="/wiki/image/syringe_5.png" %} to be able to be drawn and administered.
+Los medicamentos requieren una {% include hl.html t="Syringe" i="/wiki/image/syringe_5.png" %} para poder extraerse y administrarse.
 
-IV access is achieved with IV Catheters or IO devices.
+El acceso IV se consigue mediante catéteres IV o dispositivos IO.
 
-Medications can be administered intramuscularly with just a syringe.
+Los medicamentos también pueden administrarse por vía intramuscular usando únicamente una jeringa.
 
-## Dosing
-**Cardiac Arrest:** Push 1mg/kg IV, up to 3mg/kg<br>
-**Local Anesthetic:** Inject 50-100mg IM
+## Dosificación
+**Paro cardíaco:** Administrar 1mg/kg IV, hasta 3mg/kg<br>
+**Anestésico local:** Inyectar 50-100mg IM
 
-## Effects
+## Efectos
 {% include git-wiki/components/template/section_med_effects.html %}
 
-#### Potential Complications
-- Bradycardia
-- Hypotension
-- Cardiac Arrest
+#### Posibles complicaciones
+- Bradicardia
+- Hipotensión
+- Paro cardíaco
 
-## Indications
-- Shockable Cardiac Arrest (PVT/VF)
-- In Advance Of Pain Procedure
+## Indicaciones
+- Paro cardíaco desfibrilable (PVT/VF)
+- Antes de un procedimiento doloroso
 
-## Contraindications
+## Contraindicaciones
 - N/A
 
-# External Links
+# Enlaces externos
 - [Lidocaine (Wikipedia)](https://en.wikipedia.org/wiki/Lidocaine)
