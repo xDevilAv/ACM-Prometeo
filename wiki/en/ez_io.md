@@ -11,14 +11,14 @@ page_category:
 - circulation
 - io_access
 
-export_use: "Establishing intraosseous access route"
+export_use: "Establecer una vía de acceso intraósea"
 
 infobox_image: "/wiki/image/io_ez.png"
 
 infobox_use_category: "advanced"
 infobox_use_selection: "limbs"
 
-infobox_item_type: "IO Access Drill"
+infobox_item_type: "Taladro de acceso IO"
 
 infobox_item_nonmedication: true
 
