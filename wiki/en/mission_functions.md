@@ -6,83 +6,88 @@ published: true
 
 {% include git-wiki/components/toc/toc-include.html %}
 
-# Evacuation Addon Setup
+# Configuración del Addon de Evacuación
 
-The Evacuation addon allows player casualties to be converted into AI ones, the players are then able to reinforce at a pre-defined location and the casualty evacuated at a later point.
+El addon de evacuación permite convertir las bajas de jugadores en unidades IA. Después, los jugadores podrán reaparecer en una ubicación predefinida y la baja podrá ser evacuada posteriormente.
 <br><br>
-This reinforce point needs to be defined to set where the players will be teleported to after conversion, this should be at a pre-established friendly position, preferably close to a transport method the players will use to get back.
+Este punto de refuerzo debe definirse para establecer dónde serán teletransportados los jugadores después de la conversión. Debe situarse en una posición amiga previamente establecida, preferiblemente cerca de un medio de transporte que los jugadores utilizarán para regresar.
 
-The evacuation object(s) need to be defined to allow the casualty to be evacuated and to return the used casualty ticket, this should be at a pre-established friendly position, potentially inside a medical building.
+Los objetos de evacuación deben definirse para permitir evacuar a la baja y devolver el ticket de baja utilizado. Esto debería estar en una posición amiga previamente establecida, potencialmente dentro de un edificio médico.
 <br><br>
-Additionally if use of respawn tickets is desired (recommended), respawn ticket subtraction needs to be enabled in the mission attributes.
+Además, si se desea usar tickets de respawn (recomendado), se debe habilitar la resta de tickets de respawn en los atributos de la misión.
 
-### Defining evacuation and reinforce points
+### Definir puntos de evacuación y refuerzo
 {:.no_toc}
-#### Reinforce Point
-The Reinforce Point defines where converted players will be teleported to.
 
-- Only one Reinforce Point per faction will be active at once, if there are multiple the last initialized will be used
+#### Punto de Refuerzo
+El punto de refuerzo define dónde serán teletransportados los jugadores convertidos.
 
-<br><br>
-<big>**Module Attributes**</big><br>
-**Player Side** - Define which faction the reinforce point is intended for
-
-{% include video.html v="/wiki/image/mission_modules/reinforce_point.webm" type="video/webm" gif="true" s="50" f="center" t="Reinforce Point Module" %}
-
-#### Evacuation Point
-The Evacuation Point controls what objects can be used to evacuate converted casualties.
-
-- The target object must not be a simple object
-- The target object(s) should be made indestructible to avoid issues
+- Solo un punto de refuerzo por facción estará activo a la vez. Si hay varios, se utilizará el último que se inicialice.
 
 <br><br>
-<big>**Module Attributes**</big><br>
-**Player Side** - Define which faction the evacuation point is intended for<br>
-**Interaction Distance** - Default: `5`<br>
-**Interaction Position** - Default: `[0,0,0]`
+<big>**Atributos del módulo**</big><br>
+**Bando del jugador** - Define para qué facción está destinado el punto de refuerzo.
 
-{% include video.html v="/wiki/image/mission_modules/evacuation_point.webm" type="video/webm" gif="true" s="50" f="center" t="Evacuation Point Module" %}
+{% include video.html v="/wiki/image/mission_modules/reinforce_point.webm" type="video/webm" gif="true" s="50" f="center" t="Módulo Punto de Refuerzo" %}
 
-### Enabling respawn ticket subtraction in mission file
+#### Punto de Evacuación
+El punto de evacuación controla qué objetos pueden utilizarse para evacuar bajas convertidas.
+
+- El objeto objetivo no debe ser un objeto simple.
+- Los objetos objetivo deberían hacerse indestructibles para evitar problemas.
+
+<br><br>
+<big>**Atributos del módulo**</big><br>
+**Bando del jugador** - Define para qué facción está destinado el punto de evacuación.<br>
+**Distancia de interacción** - Por defecto: `5`<br>
+**Posición de interacción** - Por defecto: `[0,0,0]`
+
+{% include video.html v="/wiki/image/mission_modules/evacuation_point.webm" type="video/webm" gif="true" s="50" f="center" t="Módulo Punto de Evacuación" %}
+
+### Activar la resta de tickets de respawn en el archivo de misión
 {:.no_toc}
-Enable ticket subtraction upon unit death, this will make player and converted casualty deaths in the player faction consume respawn tickets.
+
+Activa la resta de tickets cuando una unidad muere. Esto hará que las muertes de jugadores y bajas convertidas de la facción del jugador consuman tickets de respawn.
 
 <img src="{{ '/wiki/image/mission_subtract_tickets.png' | relative_url }}" height="150">
 
-# Full-Heal Facility
-The full-heal facility allows easily defining objects that can fully heal select or all units inside it.
+# Instalación de Curación Total
 
-- The target object must not be a simple object
-- The target object(s) should be made indestructible to avoid issues
+La instalación de curación total permite definir fácilmente objetos que pueden curar completamente a unidades específicas o a todas las unidades dentro de ella.
+
+- El objeto objetivo no debe ser un objeto simple.
+- Los objetos objetivo deberían hacerse indestructibles para evitar problemas.
 
 <br><br>
-<big>**Module Attributes**</big><br>
-**Interaction Distance** - Default: `5`<br>
-**Interaction Position** - Default: `[0,0,0]`
+<big>**Atributos del módulo**</big><br>
+**Distancia de interacción** - Por defecto: `5`<br>
+**Posición de interacción** - Por defecto: `[0,0,0]`
 
-{% include video.html v="/wiki/image/mission_modules/full_heal_facility.webm" type="video/webm" gif="true" s="50" f="center" t="Full-Heal Facility Module" %}
+{% include video.html v="/wiki/image/mission_modules/full_heal_facility.webm" type="video/webm" gif="true" s="50" f="center" t="Módulo Instalación de Curación Total" %}
 
 <img src="{{ '/wiki/image/mission_healtent_use.png' | relative_url }}" height="500">
 
-# Custom Blood Type List
-The custom blood type list allows overwriting SteamID-based blood types, and setting specific blood types for each player, for example based on the player's real blood type.
-<br><br>
-A function needs to be entered into the mission init field which will define the set blood types of select SteamIDs.
+# Lista Personalizada de Tipos de Sangre
 
-### Enabling custom blood type list in circulation settings
+La lista personalizada de tipos de sangre permite sobrescribir los tipos de sangre basados en SteamID y establecer tipos de sangre específicos para cada jugador, por ejemplo según el tipo de sangre real del jugador.
+<br><br>
+Debe introducirse una función en el campo **init** de la misión que definirá los tipos de sangre asignados a determinados SteamID.
+
+### Activar lista personalizada de tipos de sangre en los ajustes de circulación
 {:.no_toc}
+
 <img src="{{ '/wiki/image/mission_custom_bloodlist_enable.png' | relative_url }}" height="50">
 
-### Defining Blood Types
+### Definir tipos de sangre
 {:.no_toc}
 
-- Enter this code into the init field in the mission attributes:<br>
+- Introduce este código en el campo **init** en los atributos de la misión:<br>
   - `[[["<STEAMID>",<ID>]]] call ACM_mission_fnc_createCustomBloodTypeList;`
-- This will bind the desired blood type to the set SteamID(s).
+- Esto vinculará el tipo de sangre deseado al SteamID especificado.
 
 <table style = "width:8%;">
     <tr>
-        <th>Blood Type</th>
+        <th>Tipo de sangre</th>
         <th>ID</th>
     </tr>
     <tr>
@@ -119,33 +124,42 @@ A function needs to be entered into the mission init field which will define the
     </tr>
 </table>
 
-#### Example:
+#### Ejemplo
 {:.no_toc}
+
 `[[["76561197960287930",1],["76561195961284930",4]]] call ACM_mission_fnc_createCustomBloodTypeList;`<br>
-- **76561197960287930** will have blood type **O-**, and **76561195961284930** will have blood type **B+**.
+
+- **76561197960287930** tendrá tipo de sangre **O-**  
+- **76561195961284930** tendrá tipo de sangre **B+**
 
 <img src="{{ '/wiki/image/mission_custombloodlist.png' | relative_url }}" height="400">
 
-# Casualty Spawner
-The casualty spawner allows easily adding a way to spawn casualties with varying severity for training purposes.
+# Generador de Bajas
+
+El generador de bajas permite añadir fácilmente un sistema para generar bajas con diferentes niveles de gravedad para entrenamiento.
 <br><br>
-The reference object needs to be created to set where the casualties will be spawned.
+Debe crearse un objeto de referencia para definir dónde aparecerán las bajas.
 
-The training computer object needs to be created to allow the player to spawn casualties at the set severity.
+También debe crearse un objeto de **ordenador de entrenamiento** para permitir al jugador generar bajas con el nivel de gravedad deseado.
 
-### Reference Object
+### Objeto de referencia
 {:.no_toc}
-- Create a new object and set its variable name to something unique (eg. `ACM_mission_TrainingSpot1`).
-  - This variable will be used in the training computer object to reference this one.
-- This object will be used as a reference where the casualties should spawn, it can be hidden if required.
+
+- Crea un nuevo objeto y establece su nombre de variable como algo único (por ejemplo `ACM_mission_TrainingSpot1`).
+  - Esta variable se usará en el objeto del ordenador de entrenamiento para referenciar este objeto.
+- Este objeto se utilizará como referencia para el punto donde aparecerán las bajas. Puede ocultarse si es necesario.
 
 <img src="{{ '/wiki/image/mission_training_computer_ref.png' | relative_url }}" height="750">
 
-### Training Computer
+### Ordenador de entrenamiento
 {:.no_toc}
-- Create a new object and enter this code into its init field:<br>
+
+- Crea un nuevo objeto e introduce este código en su campo **init**:<br>
+
 `[this, variable] call ACM_mission_fnc_initTrainingComputer`
-  - Where `this` is the interaction object, and `variable` is the variable name of the reference object (eg. `ACM_mission_TrainingSpot1`).
-- This object will have all the ACE interactions for spawning, healing and clearing casualties.
+
+  - Donde `this` es el objeto de interacción y `variable` es el nombre de la variable del objeto de referencia (por ejemplo `ACM_mission_TrainingSpot1`).
+
+- Este objeto tendrá todas las interacciones ACE para generar, curar y eliminar bajas.
 
 <img src="{{ '/wiki/image/mission_trainingcomputer.png' | relative_url }}" height="750">
