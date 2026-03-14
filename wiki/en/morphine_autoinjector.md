@@ -11,19 +11,19 @@ page_category:
 - packaged_medication
 - autoinjector
 
-export_use: "Managing moderate to severe pain"
+export_use: "Control del dolor moderado a intenso"
 
 infobox_image: "/wiki/image/autoinjector_morphine.png"
 
 infobox_use_category: "medication"
 infobox_use_selection: "body"
 
-infobox_item_type: "Analgesic Opioid Autoinjector"
+infobox_item_type: "Autoinyector analgésico opioide"
 infobox_item_weight: "0.05kg | 0.10lb"
 
 infobox_item_classname: "ACE_morphine"
 
-infobox_med_dose: "1 injection"
+infobox_med_dose: "1 inyección"
 infobox_med_autoinjector: true
 
 infobox_med_im: true
@@ -35,44 +35,44 @@ infobox_med_effect_hr: -2
 infobox_med_effect_bp: -2
 infobox_med_effect_rr: -2
 
-infobox_med_pain: "STRONG"
+infobox_med_pain: "FUERTE"
 ---
 
 {% include git-wiki/components/infobox/item_infobox.html %}
 
-The Morphine Autoinjector is a device used to easily self administer {% include hl.html t="Morphine" i="/wiki/image/vial_morphine.png" %} to combat moderate to severe pain.
+El **autoinyector de morfina** es un dispositivo utilizado para autoadministrar fácilmente {% include hl.html t="Morphine" i="/wiki/image/vial_morphine.png" %} y combatir el dolor moderado a intenso.
 
-# Function
-The morphine autoinjector is used to combat moderate to severe pain caused by injuries or other medical procedures, without requiring dosing of liquid medication.
+# Función
+El autoinyector de morfina se utiliza para combatir el dolor moderado a intenso causado por lesiones u otros procedimientos médicos, sin necesidad de dosificar medicamentos líquidos.
 
-The morphine autoinjector is effective at managing severe pain for a long period of time, it requires careful dosing due to its effects on the heart rate and respiratory rate.
+El autoinyector de morfina es eficaz para controlar el dolor intenso durante un periodo prolongado, pero requiere una dosificación cuidadosa debido a sus efectos sobre la frecuencia cardíaca y la respiración.
 
-The morphine autoinjector is administered intramuscularly with a delayed onset, moderate peak and long duration.
+El autoinyector de morfina se administra por vía intramuscular con un inicio retardado, un pico moderado y una duración prolongada.
 
-# Usage
+# Uso
 {% include git-wiki/components/template/action_note.html name="Use Morphine Autoinjector" bodypart="Limbs" category="medication" %}
 
-The morphine autoinjector administers a 5mg IM of morphine dose.
+El autoinyector de morfina administra una dosis de **5 mg IM de morfina**.
 
-## Recommended Dose
-Single injection
+## Dosis recomendada
+Una sola inyección
 
-## Effects
+## Efectos
 {% include git-wiki/components/template/section_med_effects.html %}
 
-#### Potential Complications
-- Bradycardia
-- Hypoventilation
-- Respiratory Arrest
-- Cardiac Arrest
+#### Posibles complicaciones
+- Bradicardia
+- Hipoventilación
+- Parada respiratoria
+- Paro cardíaco
 
-## Indications
-- Moderate/Severe Pain
+## Indicaciones
+- Dolor moderado/intenso
 
-## Contraindications
-- Chest Injury
-- Impaired Breathing Ability
+## Contraindicaciones
+- Lesión torácica
+- Capacidad respiratoria comprometida
 
-# External Links
+# Enlaces externos
 - [Morphine (Wikipedia)](https://en.wikipedia.org/wiki/Morphine)
 - [TFC Pain (TCCC.org.ua)](https://tccc.org.ua/en/guide/tfc-pain)
