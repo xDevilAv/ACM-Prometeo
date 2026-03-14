@@ -1,5 +1,5 @@
 ---
-title: Mission Functions
+title: Funciones Editor Misión
 permalink: /en/Mission_Functions
 published: true
 ---
